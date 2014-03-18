@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+<!--#include file="includes/head.inc" -->
+<body>
+<!--#include file="includes/header.inc" -->
+<section id="main-content">
+  <div class="row">
+    <div class="columns large-12">
+      <div class="columns large-6">
+        <h3>Pellentesque Amet Consectetur Fringilla Parturient</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+          Vestibulum id ligula porta felis euismod semper. Integer posuere e
+          rat a ante venenatis dapibus posuere velit aliquet. Vivamus sagittis 
+          lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, 
+          est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+          Vestibulum id ligula porta felis euismod semper. Integer posuere e
+          rat a ante venenatis dapibus posuere velit aliquet. Vivamus sagittis 
+          lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, 
+          est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
+        </p>
+      </div>
+      <div class="columns large-6">
+        <h3>Pellentesque Amet Consectetur Fringilla Parturient</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+          Vestibulum id ligula porta felis euismod semper. Integer posuere e
+          rat a ante venenatis dapibus posuere velit aliquet. Vivamus sagittis 
+          lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, 
+          est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+          Vestibulum id ligula porta felis euismod semper. Integer posuere e
+          rat a ante venenatis dapibus posuere velit aliquet. Vivamus sagittis 
+          lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, 
+          est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+</body>
+</html>

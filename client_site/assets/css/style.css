@@ -1,0 +1,33 @@
+body {
+  background: #f5f5f5;
+}
+
+header#main {
+  background: #abe2f5;
+}
+
+nav#main {
+  
+}
+nav#main ul {
+  margin:0;
+}
+nav#main ul li{
+  display: inline;
+  font-size: 1.3em;
+  padding:3px;
+  margin-right: 12px;
+}
+
+li#about {
+  border-bottom: 1px solid #f5440e;
+  border-top: 1px solid #f5440e;
+}
+li#wireframes {
+  border-bottom: 1px solid #1388b9;
+  border-top: 1px solid #1388b9;
+}
+li#rationale {
+  border-bottom: 1px solid #0fa34a;
+  border-top: 1px solid #0fa34a;
+}
