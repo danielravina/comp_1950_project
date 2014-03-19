@@ -4,45 +4,62 @@
 <!--#include file="includes/head.inc" -->
 <body>
 <!--#include file="includes/header.inc" -->
-<section id="main-content">
+<section id="hero">
   <div class="row">
-    <div class="columns large-12">
-      <div class="columns large-6">
-        <h3>Pellentesque Amet Consectetur Fringilla Parturient</h3>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-          Vestibulum id ligula porta felis euismod semper. Integer posuere e
-          rat a ante venenatis dapibus posuere velit aliquet. Vivamus sagittis 
-          lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, 
-          est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-          Vestibulum id ligula porta felis euismod semper. Integer posuere e
-          rat a ante venenatis dapibus posuere velit aliquet. Vivamus sagittis 
-          lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, 
-          est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
-        </p>
-      </div>
-      <div class="columns large-6">
-        <h3>Pellentesque Amet Consectetur Fringilla Parturient</h3>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-          Vestibulum id ligula porta felis euismod semper. Integer posuere e
-          rat a ante venenatis dapibus posuere velit aliquet. Vivamus sagittis 
-          lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, 
-          est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-          Vestibulum id ligula porta felis euismod semper. Integer posuere e
-          rat a ante venenatis dapibus posuere velit aliquet. Vivamus sagittis 
-          lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, 
-          est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
-        </p>
-      </div>
+    <div class="columns large-7 large-centered medium-6 medium-centered">
+      <h2>COMP 1950
+      <small>The <em>Final</em> Project</h2></small></h2>
+      <p>Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere consectetur est at lobortis.</p>
     </div>
   </div>
 </section>
+<hr>
+<section id="main-content">
+  <div class="row">
+    <div class="columns large-4 medium-4 small-12">
+      <h3>Hello World</h3>
+      <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Vestibulum id ligula porta felis euismod semper.</p>
+        
+    </div>
+    <div class="columns large-4 medium-4 small-12">
+      <h3>Hello World</h3>
+      <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Vestibulum id ligula porta felis euismod semper.</p>
+        
+    </div>
+    <div class="columns large-4 medium-4 small-12">
+      <h3>Hello World</h3>
+      <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Vestibulum id ligula porta felis euismod semper.</p>
+        
+    </div>
+  </div>
+</section>
+
+<section id="thumbs">
+  <div class="row">
+    <div class="columns large-3 medium-3 small-6">
+      <a class="th" href="../img/demos/demo2.png">
+        <img src="http://placehold.it/240x240&text=Group%20Pic%20here">
+      </a>
+    </div>
+    <div class="columns large-3 medium-3 small-6">
+      <a class="th" href="../img/demos/demo2.png">
+        <img src="http://placehold.it/240x240&text=Group%20Pic%20here">
+      </a>
+    </div>
+    <div class="columns large-3 medium-3 small-6">
+      <a class="th" href="../img/demos/demo2.png">
+        <img src="http://placehold.it/240x240&text=Group%20Pic%20here">
+      </a>
+    </div>
+    <div class="columns large-3 medium-3 small-6">
+      <a class="th" href="../img/demos/demo2.png">
+        <img src="http://placehold.it/240x240&text=Group%20Pic%20here">
+      </a>
+    </div>
+  </div>
+</section>
+<footer>
+  Site Map
+</footer>
 </body>
 </html>
