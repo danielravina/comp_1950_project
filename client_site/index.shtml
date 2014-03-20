@@ -9,7 +9,12 @@
     <div class="columns large-7 large-centered medium-6 medium-centered">
       <h2>COMP 1950
       <small>The <em>Final</em> Project</h2></small></h2>
-      <p>Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere consectetur est at lobortis.</p>
+      <p>This is a redesign of the Comp1950 web site used to deliver class lecture notes. </p>
+
+<p>We will create a protosite and documents to support a new design to deliver lecture notes, but also provide clear and simple navigation to examples or code repositories, a search option, a blog to provide timely updates and share articles, and other resources.</p>
+
+<p>Included in each page will be access to each week’s lecture, exercises, and assignments. Also, there will be information about the course and the instructor, and a link to the blog.</p>
+
     </div>
   </div>
 </section>
@@ -18,7 +23,7 @@
   <div class="row">
     <div class="columns large-4 medium-4 small-12">
       <h3>Hello World</h3>
-      <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Vestibulum id ligula porta felis euismod semper.</p>
+      <p>We will create a new home page, a lecture page, and a blog page.</p>
         
     </div>
     <div class="columns large-4 medium-4 small-12">
