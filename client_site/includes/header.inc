@@ -8,7 +8,8 @@
         <ul class="">
           <li><a href="about.shtml">About</a></li>
           <li><a href="rationale.shtml">Rationale</a></li>
-          <li><a href="wireframes.shtml">Wireframes</a></li>
+          <li><a href="documents.shtml">Documents</a></li>
+          <li><a href="methodology.shtml">Our Methodology</a></li>
         </ul>
       </nav>
     </div>
