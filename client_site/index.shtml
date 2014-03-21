@@ -48,17 +48,20 @@
     </div>
     <div class="columns large-3 medium-3 small-6">
       <a class="th" href="../img/demos/demo2.png">
-        <img src="http://placehold.it/240x240&text=Group%20Pic%20here">
+        <img src="assets/img/team1.jpg">
+        <div class="caption">Our one and only client is trying to distract us from what really matters</div>
       </a>
     </div>
     <div class="columns large-3 medium-3 small-6">
       <a class="th" href="../img/demos/demo2.png">
-        <img src="http://placehold.it/240x240&text=Group%20Pic%20here">
+        <img src="assets/img/team2.jpg">
+        <div class="caption">Working Hard</div>
       </a>
     </div>
     <div class="columns large-3 medium-3 small-6">
       <a class="th" href="../img/demos/demo2.png">
-        <img src="http://placehold.it/240x240&text=Group%20Pic%20here">
+        <img src="assets/img/team3.jpg">
+        <div class="caption">Working Harder</div>
       </a>
     </div>
   </div>
