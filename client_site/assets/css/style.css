@@ -4,12 +4,14 @@ body {
 }
 p {
   font-weight: 300;
+  font-size: 1.3rem;
 }
+h1,h2,h3,h4 { font-weight: 100;}
 
 header#main {
   background: #abe2f5;
-
 }
+
 
 header#main h1 {
   font-size: 2em;
@@ -32,19 +34,21 @@ nav#main ul li{
 section#hero,section#thumbs, section#main-content {
   margin-top:50px;
 }
+#main-content header { 
+  text-align: center;
+}
+#main-content header h1{
+  font-size: 5em;
+}
 
-#main-content h2 {
+#main-content header nav{
+  margin-bottom: 30px;
+}
+
+#main-content h3 {
   text-align: center;
   margin-bottom: 20px;
-  font-weight: 100;
-}
-
-section#hero h2{
-  /*font-family: georgia, serif;*/
-  font-weight: 100;
-}
-section#hero p{
-  font-size: 1.5rem;
+  
 }
 
 body>footer{
@@ -63,4 +67,10 @@ body>footer{
 #hero footer p {
   color:#173faa;
   font-weight: 300;
+}
+
+.caption {
+  text-align: center;
+  font-size: 0.9em;
+  line-height: 20px;
 }

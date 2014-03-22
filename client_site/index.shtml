@@ -26,7 +26,7 @@
 <hr>
 <section id="main-content">
   <div class="row">
-    <h2>Our Goals:</h2>
+    <h3>Our Goals:</h3>
     <article class="columns large-4 medium-4 small-12">
       <h3>Improved Navigation</h3>
       <p>Provides a place for exercises, code examples, and other resources that are easy to access and easy to update.</p>
