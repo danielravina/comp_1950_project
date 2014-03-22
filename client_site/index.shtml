@@ -14,28 +14,34 @@
       <p>We will create a protosite and documents to support a new design to deliver lecture notes, but also provide clear and simple navigation to examples or code repositories, a search option, a blog to provide timely updates and share articles, and other resources.</p>
 
       <p>Included in each page will be access to each week’s lecture, exercises, and assignments. Also, there will be information about the course and the instructor, and a link to the blog.</p>
-
+      <footer>
+        <h2>Cant Wait to see it?</h2>
+        <a href="#" id="site-button" class="button success big round">New Site Here!</a>
+      </footer>
     </div>
+    
+      
   </div>
 </section>
 <hr>
 <section id="main-content">
   <div class="row">
-    <div class="columns large-4 medium-4 small-12">
-      <h3>Hello World</h3>
-      <p>We will create a new home page, a lecture page, and a blog page.</p>
+    <h2>Our Goals:</h2>
+    <article class="columns large-4 medium-4 small-12">
+      <h3>Improved Navigation</h3>
+      <p>Provides a place for exercises, code examples, and other resources that are easy to access and easy to update.</p>
         
-    </div>
-    <div class="columns large-4 medium-4 small-12">
-      <h3>Hello World</h3>
+    </article>
+    <article class="columns large-4 medium-4 small-12">
+      <h3>New Features</h3>
+      <p>Alumni page, search bar, smooth scrolling to enhance the experience and get inspired</p>
+        
+    </article>
+    <article class="columns large-4 medium-4 small-12">
+      <h3>Something more!</h3>
       <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Vestibulum id ligula porta felis euismod semper.</p>
         
-    </div>
-    <div class="columns large-4 medium-4 small-12">
-      <h3>Hello World</h3>
-      <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Vestibulum id ligula porta felis euismod semper.</p>
-        
-    </div>
+    </article>
   </div>
 </section>
 

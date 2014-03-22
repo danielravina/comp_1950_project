@@ -7,7 +7,12 @@ body {
 }
 header#main {
   background: rgb(51,51,51);
-  padding:40px 20px;
+  /*padding:40px 20px;*/
+}
+
+header#main > .row {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 header#main h1 {
@@ -18,6 +23,11 @@ header#main h1 {
 
 .content-box {
   background: white;
+  border:1px solid #bfbfbf;
+  height: 550px;
+  overflow: auto;
+
+
 }
 
 footer#main {
@@ -28,22 +38,26 @@ footer#main p {
   text-align: center;
 }
 
-.tabs{
-  background: #1fad92;
-}
-
 #main > .row {
-
   border-left: 1px solid #bfbfbf;
 }
-nav {
-}
-nav h3 {
+
+nav#main h3 {
   position: relative;
   padding-left: 10px;
   font-size: 1em;
 }
-nav h3:before, header#main h1:before {
+
+nav#main li {
+  font-size: 0.9em;
+}
+
+section#navigation .row {
+  border-left: 1px solid #bfbfbf; 
+}
+
+
+nav#main h3:before, header#main h1:before {
   content:" ";
   background: #1fad92;
   position: absolute;
@@ -62,15 +76,19 @@ nav#tabs {
   position: relative;
   top:20px;
 }
-nav#tabs ul {
-}
+
 nav#tabs ul li{
   display: inline;
 }
 nav#tabs ul li a{
   padding:8px;
   background: #1fad92;
+  
   border-radius: 15px 15px 0 0;
   color:white;
   text-decoration: none;
+}
+
+nav#tabs ul li a.active {
+  background: #bfbfbf;
 }
