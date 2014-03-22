@@ -9,7 +9,7 @@ p {
 h1,h2,h3,h4 { font-weight: 100;}
 
 header#main {
-  background: #abe2f5;
+  background: #e4e4e4;
 }
 
 
@@ -50,6 +50,10 @@ section#hero,section#thumbs, section#main-content {
   margin-bottom: 20px;
   
 }
+#main-content article h3 {
+  text-align: left;
+  font-weight: 300;
+}
 
 body>footer{
   margin-top: 50px;
@@ -73,4 +77,20 @@ body>footer{
   text-align: center;
   font-size: 0.9em;
   line-height: 20px;
+}
+.avatar figure {
+  text-align: center;
+}
+.avatar figure img{
+  border-radius: 50%;
+  width:180px;
+  height:180px;
+}
+
+#main-content .person-module {
+  margin-bottom: 20px;
+}
+#main-content .person-module h3 {
+  text-align: left;
+  margin:inherit;
 }

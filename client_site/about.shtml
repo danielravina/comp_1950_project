@@ -1,12 +1,85 @@
 <!doctype html>
 <html lang="en">
 <head>
-<!--#include file="includes/head.inc" -->
-<body>
-<!--#include file="includes/header.inc" -->
-
-<footer>
-  Site Map
-</footer>
-</body>
-</html>
+  <!--#include file="includes/head.inc" -->
+  <body>
+    <!--#include file="includes/header.inc" -->
+    <section id="main-content">
+      <div class="row">
+        <div class="columns large-12 large-centered medium-8 small-12 small-centered">
+          <header>
+            <h1>The Team</h1>
+          </header>
+          <div class="row person-module">
+            <div class="columns large-6 medium-12 small-12">
+              <div class="avatar">
+                <figure>
+                  <img src="assets/img/dennis-face.jpg" alt="">
+                </figure>
+              </div>
+            </div>
+            <div class="columns large-6 medium-7 small-7 small-centered">
+              <h3>Dennis Blackwood</h3>
+              <p>Content Officer. Provided content throughout and collaborated on the Introduction page and site map</p>
+            </div>
+          </div>
+          <div class="row person-module">
+            <div class="columns large-6 medium-12 small-12">
+              <div class="avatar">
+                <figure>
+                  <img src="assets/img/shannon_profile.jpg" alt="">
+                </figure>
+              </div>
+            </div>
+            <div class="columns large-6 medium-7 small-7 small-centered">
+              <h3>Shannon Chu</h3>
+              <p>Chief designer for wireframes and overall page design. Also the unofficial team spokesperson.</p>
+            </div>
+          </div>
+          <div class="row person-module">
+            <div class="columns large-6 medium-12 small-12">
+              <div class="avatar">
+                <figure>
+                  <img src="assets/img/don-face.jpg" alt="">
+                </figure>
+              </div>
+            </div>
+            <div class="columns large-6 medium-7 small-7 small-centered">
+              <h3>Don Clark</h3>
+              <p>Content Officer. Provided content throughout and provided any assistance where needed</p>
+            </div>
+          </div>
+          <div class="row person-module">
+            <div class="columns large-6 medium-12 small-12">
+              <div class="avatar">
+                <figure>
+                  <img src="assets/img/paige.png" alt="">
+                </figure>
+              </div>
+            </div>
+            <div class="columns large-6 medium-7 small-7 small-centered">
+              <h3>Paige Borycki</h3>
+              <p>Blog programmer. Our Chief Tumblr Officer</p>
+            </div>
+          </div>
+          <div class="row person-module">
+            <div class="columns large-6 medium-12 small-12">
+              <div class="avatar">
+                <figure>
+                  <img src="http://placehold.it/150x150" alt="">
+                </figure>
+              </div>
+            </div>
+            <div class="columns large-6 medium-7 small-7 small-centered">
+              <h3>Daniel Ravina</h3>
+              <p>Chief Technical Officer. Initiated the project by establishing the Github account and setting up the project structure</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      Site Map
+    </footer>
+  </body>
+  </html>
