@@ -15,6 +15,39 @@
           </header>
           
           
+        <h2>1. Analysis</h2>
+            <ul>
+                  <li>Understanding the Client Expectations</li>
+                  <li>Establish Requirements - a review of the existing site - advantages and disadvantages.</li>
+                  <li>Proposals - what we wanted and did not want in the design.</li>
+                  <li>Team member contribution of ideas</li>
+                  <li>Understanding individual contributions</li>
+                  <li>Understanding what could be implemented within the working timeframe.</li>
+            </ul>
+
+       <h2>2. Design</h2>
+            <ul>
+                  <li>Wireframing</li>
+                  <li>Design -  several excellent page designs reviewed by team</li>
+                  <li>Design - discussion of features, fonts, colors.</li>
+                  <li>Organization - setting work environment for the group - Github, Google Drive and Tumblr</li>
+                  <li>Prototype and concurrent testing</li>
+            </ul>
+
+      <h2>3. Implementation</h2>
+            <ul>
+                  <li>Coding HTML CSS Java</li>
+                  <li>Developing Content</li>
+                  <li>Testing and Revision</li>
+            </ul>
+      <h2>4. Deployment and Review</h2>
+            <ul>
+                  <li>Completion of content and code.</li>
+                  <li>Final test and revision</li>
+                  <li>Publishing to Host</li>
+                  <li.Review of final product in live environment.</li>
+            </ul>
+          
 
 <footer>
   Site Map
