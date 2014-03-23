@@ -4,6 +4,17 @@
 <!--#include file="includes/head.inc" -->
 <body>
 <!--#include file="includes/header.inc" -->
+<section id="main-content">
+      <div class="row">
+        <div class="columns large-7 large-centered medium-6 medium-centered">
+          <header>
+            <h1>Methodology</h1>
+            <nav>
+              <a href="">Analysis</a> | <a href="">Design</a> | <a href="">Implementation</a> | <a href="">Deployment and Review</a>
+            </nav>
+          </header>
+          
+          
 
 <footer>
   Site Map
