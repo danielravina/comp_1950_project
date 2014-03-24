@@ -2,7 +2,7 @@ body {
   background: #f5f5f5;
   font-family: "Helvetica Neue", "Helvetica", sans-serif; 
 }
-p {
+p, li {
   font-weight: 300;
   font-size: 1.3rem;
 }
@@ -79,8 +79,9 @@ body>footer{
   line-height: 20px;
 }
 .avatar figure {
-  text-align: center;
+  text-align: right;
 }
+
 .avatar figure img{
   border-radius: 50%;
   width:180px;
@@ -93,4 +94,22 @@ body>footer{
 #main-content .person-module h3 {
   text-align: left;
   margin:inherit;
+}
+
+.number {
+  display: inline-block;
+  background: #abd3d3;
+  width:50px; height:50px;
+  padding-left: 14px;
+  border-radius:50%;
+}
+@media (max-width: 1024px) {
+  .avatar figure {
+    text-align: center;
+  } 
+}
+@media (max-width: 492px){
+  nav#main ul li{ display: block; text-align: center; }
+  header#main h1 { font-size: 1.5em; text-align: center;} 
+  .th { margin-bottom: 15px;}
 }
