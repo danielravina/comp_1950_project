@@ -81,10 +81,11 @@ nav#tabs ul li{
   display: inline;
 }
 nav#tabs ul li a{
-  padding:8px;
+  padding: 8px 20px 8px 20px;
   background: #1fad92;  
   border-radius: 15px 15px 0 0;
   color:white;
+  font-size: 12px; letter-spacing: .5px;
   text-decoration: none;
 }
 
