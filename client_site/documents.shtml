@@ -1,12 +1,77 @@
 <!doctype html>
 <html lang="en">
 <head>
-<!--#include file="includes/head.inc" -->
-<body>
-<!--#include file="includes/header.inc" -->
-
-<footer>
-  Site Map
-</footer>
-</body>
-</html>
+  <!--#include file="includes/head.inc" -->
+  <body>
+    <!--#include file="includes/header.inc" -->
+    <section id="main-content">
+      <div class="row">
+        <div class="columns large-centered medium-8 small-12 small-centered">
+          <header>
+            <h1>Documents</h1>
+          </header>
+        </div>
+      </div>
+      <div class="row">
+        <div class="columns large-6">
+          <h3>Google Drive</h3>
+          <a href="https://drive.google.com/folderview?id=0B2PqUiSaB_7hRHEtdGNvcUtTeVk&usp=sharing" target="_blank">
+            <figure class='docs-figure'>
+              <img src="assets/img/drive-icon.png" alt="">
+            </figure>
+          </a>
+        </div>
+        <div class="columns large-6">
+          <h3>GitHub</h3>
+          <a href="https://github.com/danielravina/comp_1950_project" target="_blank">
+            <figure class="docs-figure">
+              <img src="assets/img/github-icon.gif" alt="">
+            </figure>
+          </a>
+        </div>
+      </div>
+      <hr>
+      <div class="row">
+        <div class="columns large-12" id="wireframe-section">
+          <h3>THE Wireframes</h3>
+          <div class="row">
+            <div class="columns large-6">
+              <figure>
+                <a href="assets/img/wireframe1.jpg"><img src="assets/img/wireframe1.jpg" alt=""></a>
+              </figure>
+            </div>
+            <div class="columns large-6">
+              <h2>Version 1</h2>
+              <p>Aenean lacinia bibendum nulla sed consectetur. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec ullamcorper nulla non metus auctor fringilla. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="columns large-6">
+              <figure>
+                <a href="assets/img/wireframe2.jpg"><img src="assets/img/wireframe2.jpg" alt=""></a>
+              </figure>
+            </div>
+            <div class="columns large-6">
+              <h2>Version 2</h2>
+              <p>Aenean lacinia bibendum nulla sed consectetur. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec ullamcorper nulla non metus auctor fringilla. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="columns large-6">
+              <figure>
+                <a href="assets/img/wireframe3.jpg"><img src="assets/img/wireframe3.jpg" alt=""></a>
+              </figure>
+            </div>
+            <div class="columns large-6">
+              <h2>Version 3 - CHOSEN</h2>
+              <p>Aenean lacinia bibendum nulla sed consectetur. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec ullamcorper nulla non metus auctor fringilla. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      Site Map
+    </footer>
+  </body>
+  </html>

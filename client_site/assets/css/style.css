@@ -2,7 +2,7 @@ body {
   background: #f5f5f5;
   font-family: "Helvetica Neue", "Helvetica", sans-serif; 
 }
-p, li {
+p, li, figcaption {
   font-weight: 300;
   font-size: 1.3rem;
 }
@@ -103,6 +103,12 @@ body>footer{
   padding-left: 14px;
   border-radius:50%;
 }
+figure.docs-figure {
+  width:200px;
+  height:200px;
+  margin:auto;
+}
+
 @media (max-width: 1024px) {
   .avatar figure {
     text-align: center;
@@ -112,4 +118,7 @@ body>footer{
   nav#main ul li{ display: block; text-align: center; }
   header#main h1 { font-size: 1.5em; text-align: center;} 
   .th { margin-bottom: 15px;}
+}
+#wireframe-section {
+  margin-top:50px;
 }
