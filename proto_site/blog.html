@@ -22,12 +22,13 @@
 
       .post {
       	margin-bottom: 20px;
+    	max-width: 95%;
       }
 
       #page-title {
-      	margin-top: 0;
       	text-transform: uppercase;
       	color: #222;
+      	font-size:1.3em;
       }
 
       .post header {
@@ -44,7 +45,6 @@
       }
 
       .post footer {
-      	position:relative;
       	width: 100%;
       }
       
@@ -104,9 +104,9 @@
   </header>
   <section id="navigation">
     <div class="row">
-      <div class="columns large-12 right" style="height:32px;">
+      <div class="columns large-12 right">
 
-      <!-- removed tabs -->
+        <h1 id="page-title" class="right">Blog</h1>
 
       </div>  
     </div>
@@ -128,7 +128,10 @@
           </ul>
           <h3>BLOG</h3>
           <ul>
-            <li><a href="#">Tumblr</a></li>
+            <li><a href="http://goteamtbd.tumblr.com/">News</a></li>
+            <li><a href="http://goteamtbd.tumblr.com/tagged/resources">Resources</a></li>
+            <li><a href="http://goteamtbd.tumblr.com/tagged/exercises">Exercises</a></li>
+            <li><a href="http://goteamtbd.tumblr.com/tagged/code%20examples">Code Examples</a></li>
           </ul>
           <h3>CONTACT</h3>
           <ul>
@@ -144,8 +147,6 @@
         </nav>
       </div>
       <div class="columns large-10">
-
-      	<h1 id="page-title">Blog</h1>
       
                 {block:Posts}
 
