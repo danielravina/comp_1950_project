@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+<title>COMP1950 :: Week 1</title>
+ <!--#include file="includes/head.inc" -->
+</head>
+<body>
+  <!--#include file="includes/header.inc" -->
+  <!--#include file="includes/sub-navigation.inc" -->
+  <section id="main">
+    <div class="row">
+      <div class="columns large-2">
+        <!--#include file="includes/main-navigation.inc" -->
+      </div>
+      <div class="columns large-10">
+        <div class="content-box">
+          <h2>Lecture Notes</h2>
+          <p>Lecture notes goes here</p>
+          <h2>Code</h2>
+          <p>Code examples goes here</p>
+          <h2>Excercise</h2>
+          <p>Excercise goes here</p>
+          <h2>Resource</h2>
+          <p>Resource goes here</p>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <!--#include file="includes/footer.inc" -->
+</body>
+</html>
