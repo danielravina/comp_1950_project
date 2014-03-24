@@ -1,1 +1,149 @@
-<!DOCTYPE HTML>
+<!doctype html>     <!--Code Examples-->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" href="assets/fonts/webfontkit-20140127-152607/stylesheet.css">
+  <link rel="stylesheet" href="assets/css/normalize.css">
+  <link rel="stylesheet" href="assets/css/foundation.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header id="main">
+    <div class="row">
+      <div class="columns large-8">
+        <h1>BCIT COMP 1950 <small>Intermediate Web Design & Development</small></h1>
+      </div>
+      <div class="columns large-4">
+        <form>
+          <div class="large-8 right">
+            <div class="row">
+              <div class="large-2 columns">
+                <label for="right-label" class="right inline">Label</label>
+              </div>
+              <div class="large-10 columns">
+                <div class="row collapse">
+                  <div class="columns large-11">
+                  <input type="text" id="right-label" placeholder="Search">
+                  </div>
+                  <div class="columns large-1">
+                    <button class="postfix inline">S</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </header>
+  <section id="navigation">
+    <div class="row">
+      <div class="columns large-12 right">
+      <div class="content-tabs right">
+        <nav id="tabs">
+          <ul>
+            <li><a href="#">LECTURE NOTES</a></li>
+            <li><a href="#">CODE EXAMPLES</a></li>
+            <li><a href="#">EXERCISES</a></li>
+            <li><a href="#">WEB RESOURCES</a></li>
+          </ul>
+        </nav>
+      </div>
+      </div>
+    </div>
+  </section>
+  <section id="main">
+    <div class="row">
+      <div class="columns large-2">
+        <nav id="main">
+          <h3>LECTURES</h3>
+          <ul>
+            <li><a href="#">01 | Introduction</a></li>
+            <li>02 | tools & standards</li>
+            <li>03 | HTML & SEO</li>
+            <li>04 | more CSS</li>
+            <li>05 | CSS & SSIs</li>
+            <li>06 | Template development</li>
+            <li>07 | Methodology</li>
+            <li>08 | jQuery / Git</li>
+          </ul>
+          <h3>BLOG</h3>
+          <ul>
+            <li><a href="#">Tumblr</a></li>
+          </ul>
+          <h3>CONTACT</h3>
+          <ul>
+            <li><a href="#">Alistair Caider</a></li>
+          </ul>
+          <h3>ASSOCIATED</h3>
+          <ul>
+            <li><a href="">my.bcit.ca</a></li>
+            <li><a href="">bcit.ca</a></li>
+            <li><a href="">bcit computing</a></li>
+            <li><a href="">our Alumnis</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="columns large-10">
+        <div class="content-box">
+          <h2>Code Examples</h2>
+          
+          <h3>Week One</h3>
+          
+             <a href="http://past.thenet.ca/lori/">Home page example</a>
+          
+          <h3>Week Two</h3>
+
+            <p>Example of an XHTML Document</p><br>
+            
+            <p>&#8826 ?xml version="1.0" encoding="ISO-8859-1"&#8827</p>
+            <p>&#8826 !DOCTYPE html &#8827</p>
+            <p>PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"&#8827</p>
+            <p>&#8826 html &#8827</p>
+            <p>&#8826 head &#8827</p>
+            <p>&#8826 title &#8827 COMP 1950 - Intermediate Web Development and Design &#8826/title &#8827</p>
+            <p>&#8826 /head&#8827</p>
+            <p>&#8826 body&#8827</p>
+            <p>&#8826 h1&#8827 Welcome! &#8826/h1&#8827</p>
+            <p>&#8826 p &#8827 This class will begin at 6:45 each Tuesday for 12 weeks&#8826/p&#8827</p>
+            <p>&#8826/body&#8827</p>
+            <p>&#8826/html&#8827</p><br>
+
+            <a href="http://code.google.com/p/html5shiv/">HTML Shiv</a>
+            
+          <h3>Week Five</h3>
+            
+             <p>Div Layout Examples</p><br>
+			
+             <p>If CSS-based layouts are still a mystery, please take a look at some of these basic div based layouts and their associated CSS:</p>
+            
+                <a href="http://www.thenet.ca/1950/week5/layouts/one/index.shtml">CSS Layout One - Two Column Fixed</a>
+                <a href="http://www.thenet.ca/1950/week5/layouts/two/index.shtml">CSS Layout Two - Two Column Fluid</a>
+                <a href="http://www.thenet.ca/1950/week5/layouts/three/index.shtml">CSS Layout Three - Three Column Fixed</a>
+                <a href="http://www.thenet.ca/1950/week5/layouts/four/index.shtml>CSS Layout Four - Three Column Fluid</a>
+
+          <h3>Week Five</h3>
+
+                <a href="http://www.thenet.ca/1950/week5/media-query/">CSS Media Queries</a>
+                <a href="http://www.thenet.ca/1950/week4/examples/print_programmers.html">Print Query</a>
+
+          <h3>Week Six</h3>
+          
+                <a href="http://www.zytrax.com/tech/web/ssi.htm#time">Server Side Includes</a>
+                
+          <h3>Week Ten</h3>
+
+                <a href="https://github.com/alistaircom/showhide">Github - Show Hide Example</a>
+
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <footer id="main">
+    <p>&copy; 2014 BCIT COMP 1950 | <a href="">Site Map</a></p>
+  </footer>
+  
+</body>
+</html>
