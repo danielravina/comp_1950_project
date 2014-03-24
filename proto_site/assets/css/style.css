@@ -1,3 +1,6 @@
+/* MAIN STYLES
+***************************************/
+
 ul li {
   list-style: none;
 }
@@ -17,18 +20,34 @@ header#main > .row {
 
 header#main h1 {
   color:white;
-  font-size: 2em;
+  padding: 0px 30px 0px 0px;
+  font-size: 1.75em;
+  font-family: 'din_lightregular';
   position: relative;
 }
+
+
+/* CONTENTS
+***************************************/
+
 
 .content-box {
   background: white;
   border:1px solid #bfbfbf;
-  height: 550px;
+  height: 570px;
   overflow: auto;
-
-
 }
+
+.content-box h2{  font-size: 20px;
+                  font-family: "dinregularwebfont";
+}
+
+.content-box p{ line-height: 17px; 
+}
+
+/* FOOTER
+***************************************/
+
 
 footer#main {
   background: rgb(128,128,128)
@@ -36,7 +55,19 @@ footer#main {
 
 footer#main p {
   text-align: center;
+  font-size: 14px; letter-spacing: .5px;
+  padding: 3px 0px 2px 0px;
+  color: #ffffff; font-family: "DINMedium";
 }
+
+footer#main a:link,
+
+footer#main a:visited{ color: #ffffff;}
+footer#main a:hover{ color: #000000;}
+
+
+/* MAIN SIDE NAV
+***************************************/
 
 #main > .row {
   border-left: 1px solid #bfbfbf;
@@ -46,6 +77,7 @@ nav#main h3 {
   position: relative;
   padding-left: 10px;
   font-size: 1em;
+  font-family: "DINMedium";
 }
 
 nav#main li {
@@ -72,6 +104,9 @@ header#main h1:before {
   top:16px;
 }
 
+/* SUB NAV TABS
+***************************************/
+
 nav#tabs {
   position: relative;
   top:20px;
@@ -85,10 +120,43 @@ nav#tabs ul li a{
   background: #1fad92;  
   border-radius: 15px 15px 0 0;
   color:white;
-  font-size: 12px; letter-spacing: .5px;
+  font-size: 13px; letter-spacing: .5px;
+  font-family: "dinregularwebfont";
   text-decoration: none;
 }
 
 nav#tabs ul li a.active {
   background: #bfbfbf;
+}
+
+
+
+
+
+
+
+/* FONTS
+***************************************/
+
+
+
+@font-face{ font-family: "dinregularwebfont";
+            src: url('http://fontsforweb.com/public/fonts/18347/dinregularwebfont.eot');
+            src: local("DIN Regular"), url('http://fontsforweb.com/public/fonts/18347/dinregularwebfont.woff')
+            format("woff"), url('http://fontsforweb.com/public/fonts/18347/dinregularwebfont.ttf') format("truetype");
+}
+
+
+.fontsforweb_fontid_18347{ font-family: "dinregularwebfont";
+}
+
+@font-face{ font-family: "DINMedium";
+           src: url('http://www.fontsforweb.com/public/fonts/6179/DINMedium.eot');
+           src: local("DIN Medium"), url('http://www.fontsforweb.com/public/fonts/6179/DINMedium.woff')
+           format("woff"), url('http://www.fontsforweb.com/public/fonts/6179/DINMedium.ttf') format("truetype");
+}
+
+.fontsforweb_fontid_6179 { font-family: "DINMedium";
+
+
 }
