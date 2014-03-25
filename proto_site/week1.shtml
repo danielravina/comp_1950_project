@@ -19,21 +19,21 @@
           <h2>Week One - introduction</h2>
 
              <p>Here is the current Course Outline (by week):</p>
-		 		        <p>Week 1</p>
+		 	   <p>Week 1</p>
 			             <ul>
 			               <li>Course Introduction: (this week!)</li>
 			               <li>Why are you here</li>
 			               <li>What you will learn</li>
 			               <li>Student Survey</li>
 			               <li>Assignment 1: Course homepage</li>
-                 </ul>
+        			     </ul>
 		
 		           <p>Week 2</p>
 			             <ul>
 			               <li>Web Development tools</li>
 			               <li>Standards in Web development</li>
 			               <li>Assignment 2: Using tools & standards</li>
-                </ul>
+                		     </ul>
 		
 		           <p>Week 3</p>
 			             <ul>
@@ -41,101 +41,100 @@
 			               <li>History and current developments</li>
 			               <li>What is the best development language?</li>
 			               <li>Assignment 3: Working with different MLs</li>
-                </ul>
+        			     </ul>
 		
-              <p>Week 4</p>
+        		   <p>Week 4</p>
 			             <ul>
 			               <li>Quiz 1: Markup</li>
 			               <li>Review of CSS</li>
 			               <li>Beyond text formatting</li>
 			               <li>Assignment 4: Using different stylesheets</li>
-                </ul>
+        			     </ul>
 		
 		             <p>Week 5</p>
 			             <ul>
 			               <li>Advanced CSS</li>
 			               <li>Layout and positioning</li>
 			               <li>Assignment 5: Troubleshooting CSS, Positioning Exercises</li>
-                </ul>
+        			      </ul>
 
-	               <p>Week 6</p>
+	        	     <p>Week 6</p>
 			             <ul>
 			               <li>Understanding Server Side Includes</li>
 			               <li>Beyond SSIs: Delivering dynamic information</li>
 			               <li>Introduction to template development</li>
 			               <li>Assignment 6: Template</li>
-                </ul>
+                		     </ul>
 
-	               <p>Week 6</p>
+	               	      <p>Week 7</p>
 			             <ul>
-			               <li>Understanding Server Side Includes</li>
-			               <li>Beyond SSIs: Delivering dynamic information</li>
+			               <li>Midterm</li>
+			               <li>More Template Development</li>
 			               <li>Introduction to template development</li>
-			               <li>Assignment 6: Template</li>
-                </ul>
+			               <li>Used in Blogs, wikis, user-driven sites, communities</li>
+			               <li>Assignment 7: Template II</li>
+        			     </ul>
 
+			     <p>Week 8</p>
+			             <ul>
+			               <li>Development Methodology</li>
+			               <li>Requirements, Design, Production, Launch, Maintenance</li>
+			               <li>Project outlined</li>
+			               <li>Assignment 8: Methodology Notes</li>
+        			     </ul>
 	
-
-
+			     <p>Week 9</p>
+			             <ul>
+			               <li>Behaviour</li>
+			               <li>Adding interactivity</li>
+			               <li>JavaScript Libraries and Frameworks</li>
+			               <li>Assignment 9: Javascript exercises</li>
+        			     </ul>
 	
-Week 7
+			     <p>Week 10</p>
+			             <ul>
+			               <li>Site Construction</li>
+			               <li>Bringing it all together</li>
+			               <li>Source/Revision Control using GIT</li>
+			               <li>Assignment 10: Completed site</li>
+        			     </ul>
 	
-→ Midterm
+			     <p>Week 11</p>
+			             <ul>
+			               <li>Project Work</li>
+        			     </ul>
 	
-More Template Development
-	
-Used in Blogs, wikis, user-driven sites, communities
-	
-Assignment 7: Template II
-	
-Week 8
-	
-Development Methodology
-	
-Requirements, Design, Production, Launch, Maintenance
-	
-Project outlined
-	
-Assignment 8: Methodology Notes
-	
-Week 9
-	
-Behaviour
-	
-Adding interactivity
-	
-JavaScript Libraries and Frameworks
-	
-Assignment 9: Javascript exercises
-	
-Week 10
-	
-Site Construction
-	
-Bringing it all together
-	
-Source/Revision Control using GIT
-	
-Assignment 10: Completed site
-	
-Week 11
-	
-Project Work
-	
-Week 12
-	
-Final Examination
-		
-
-
+			     <p>Week 12</p>
+			             <ul>
+			               <li>Final Examination</li>
+        			     </ul>
 
 
           <h2>Code</h2>
-          <p>Code examples goes here</p>
+        	 <a href="http://past.thenet.ca/lori/">Lori's Example of a Comp1950 Homepage</a>
+          
           <h2>Excercise</h2>
-          <p>Excercise goes here</p>
+        
+		<p>Create your course web site:</p>
+
+    		<p>Check out the example page created by a past student: Lori's Example</p>
+		 <p>Specifically, what I would like to see:</p>
+        	<p>On your homepage:</p>
+            		<p>Include some information about yourself (such as from your introduction today) including a photo</p>
+        		<p>For week one, please be sure these elements are added somewhere:</p>
+           		<p>A brief overview of your web development skill level</p>
+        		<p>Description of web development work you have done so far (links to examples or screenshots)</p>
+            		<p>Links to favourite sites, either because of esthetic, technology, etc</p>
+            		<p>A list of applications, tools, browser plug-ins or IDEs that you use for web development. Include a link to each of these tools.</p>
+    		<p>Use your understanding of HTML and CSS to the limit of your knowledge, but ensure that it is usable, presentable and coherent</p>
+    		<p>This site will be used for the rest of the course, edited each week</p>
+		<p>If we do an exercise in class or if you are assigned something for homework, please make sure you indicate that. Link to exercises and assignments from the appropriate week. Don't make me have to search for your homework.</P>
+    		<p>One caveat: No Javascript at all</p>
+		<p>There needs to be a link from the myBCIT Members page to your Student Homepage</p>
+
           <h2>Resource</h2>
-          <p>Resource goes here</p>
+          <a href="https://filezilla-project.org/">Filezilla</a>
+          
         </div>
       </div>
     </div>
