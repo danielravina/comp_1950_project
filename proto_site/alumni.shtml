@@ -29,9 +29,6 @@
         </div>
       </div>. Left weeks 2 and 3.
   </section>
-  <footer id="main">
-    <p>&copy; 2014 BCIT COMP 1950 | <a href="">Site Map</a></p>
-  </footer>
-  
+  <!--#include file="includes/footer.inc" -->
 </body>
 </html>
