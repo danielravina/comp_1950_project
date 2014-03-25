@@ -20,20 +20,20 @@
               
             <h2>Code</h2>
               
-            <p><strong>Example of an XHTML Document</strong></p>>
+            <p><strong>Example of an XHTML Document</strong></p>><br>
 
-                   <?xml version="1.0" encoding="ISO-8859-1"?>
-                   <!DOCTYPE html
-                   PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-                   <html>
-                      <head>
-                          <title>COMP 1950 - Intermediate Web Development and Design</title>
-                      </head>
-                      <body>
-                          <h1>Welcome!</h1>
-                          <p>This class will begin at 6:45 each Tuesday for 12 weeks</p>
-                      </body>
-                   </html>
+                <p>&#8826 ?xml version="1.0" encoding="ISO-8859-1"&#8827</p>  <!-- special characters &#8826 and %#8827 are tag brackets-->
+                <p>&#8826 !DOCTYPE html &#8827</p>
+                <p>PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"&#8827</p>
+                <p>&#8826 html &#8827</p>
+                <p>&#8826 head &#8827</p>
+                <p>&#8826 title &#8827 COMP 1950 - Intermediate Web Development and Design &#8826/title &#8827</p>
+                <p>&#8826 /head&#8827</p>
+                <p>&#8826 body&#8827</p>
+                <p>&#8826 h1&#8827 Welcome! &#8826/h1&#8827</p>
+                <p>&#8826 p &#8827 This class will begin at 6:45 each Tuesday for 12 weeks&#8826/p&#8827</p>
+                <p>&#8826/body&#8827</p>
+                <p>&#8826/html&#8827</p><br>
               
             <h2>Excercise</h2>
             
