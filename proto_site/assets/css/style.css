@@ -47,8 +47,11 @@ header#main h1 {
                   padding: 20px 0px 0px 0px;
 }
 
-.content-box p{ line-height: 17px; 
-}
+.content-box p{ line-height: 17px; }
+
+.content-box span{  font-family: "DINMedium";}
+
+.content-box ol li{  padding: 0px 0px 10px 0px;}
 
 /* FOOTER
 ***************************************/

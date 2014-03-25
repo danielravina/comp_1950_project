@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<title> COMP1950 :: Alumni</title>
+<head>
+ <!--#include file="includes/head.inc" -->
+</head>
+<body>
+  <!--#include file="includes/header.inc" -->
+  <!--#include file="includes/sub-navigation.inc" -->
+  <section id="main">
+    <div class="row">
+      <div class="columns large-2">
+        <!--#include file="includes/main-navigation.inc" -->
+      </div>
+        <div class="columns large-10">
+          <div class="content-box">
+            <h2>Alumni</h2>
+              <p> Here is a list of former Comp1950 students who have continued and prospered in the field of
+              web design. They have courteously provided a short bio of their current activities.</p> 
+                <ol>
+                  <li><span>Shannon Chu</span> ­ CEO and Chief Inspiration Officer ­ Creative MINC., Vancouver, BC</li>
+                  <li><span>William Gaetz</span> ­ Designer ­ Littlesoft Software Company., Seattle, Washington</li>
+                  <li><span>Stephane Jobes</span> ­  Owner/Manager ­ Tree Bearing Fruit Computers. Cupertino California</li>
+                  <li><span>Lawrence Ellistony</span> ­ CEO Soothsayer Networks, Mission, BC</li>
+                  <li><span>Uri Brin ­ Co­founder</span> ­ Googleplex Content Management Systems, Chilliwack, BC</li>
+                  <li><span>Alice Chains</span> ­ Hair of the Dog Designs. Specializing in marketing to the beverage industry</li>
+      	       </ol>
+          </div>
+        </div>
+      </div>. Left weeks 2 and 3.
+  </section>
+  <footer id="main">
+    <p>&copy; 2014 BCIT COMP 1950 | <a href="">Site Map</a></p>
+  </footer>
+  
+</body>
+</html>

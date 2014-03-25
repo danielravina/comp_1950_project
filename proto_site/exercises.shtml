@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<title> COMP1950 :: Exercises</title>
+<head>
+ <!--#include file="includes/head.inc" -->
+</head>
+<body>
+  <!--#include file="includes/header.inc" -->
+  <!--#include file="includes/sub-navigation.inc" -->
+  <section id="main">
+    <div class="row">
+      <div class="columns large-2">
+        <!--#include file="includes/main-navigation.inc" -->
+      </div>
+        <div class="columns large-10">
+          <div class="content-box">
+            <h2>Exercises</h2>
+            <h3>Week Two</h3>          
+              <a href="http://www.thenet.ca/1950/week2/exercises/content.html">Create a page for Finnegan</a>
+              <a href="http://www.thenet.ca/1950/week2/exercises/exercise2.html">Create a realtor page</a>
+                <h3>Week Three</h3>
+                  <p>1. Your Realtor Site - Week 3 exercise</p>		
+                  <p>2. Group exercise</p>
+                  <p>3. Get in groups of 3 and look at each other's Realtor pages.</p>
+                  <p>4. Based on our examination of SEO Basics, determine what kinds of things you could change to improve the page</p>
+                  <p>5. Choose the TOP THREE things your group would suggest for improving your SEO</p>
+                  <p>6. Present to the class</p>             
+            </div>
+          </div>
+      </div>. Left weeks 2 and 3.
+  </section>
+  <footer id="main">
+    <p>&copy; 2014 BCIT COMP 1950 | <a href="">Site Map</a></p>
+  </footer>
+  
+</body>
+</html>

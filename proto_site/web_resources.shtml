@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<title> COMP1950 :: Web Resources</title>
+<head>
+ <!--#include file="includes/head.inc" -->
+</head>
+<body>
+  <!--#include file="includes/header.inc" -->
+  <!--#include file="includes/sub-navigation.inc" -->
+  <section id="main">
+    <div class="row">
+      <div class="columns large-2">
+        <!--#include file="includes/main-navigation.inc" -->
+      </div>
+      <div class="columns large-10">
+        <div class="content-box">
+          <h2>Web Resources</h2>
+          <ol>
+            <li><a href="http://httpd.apache.org/docs/howto/ssi.html">How to - SSI</a></li>
+              <li><a href="http://www.htmlite.com/SSI005.shtml">HTMLite</a></li>
+              <li><a href="http://www.sublimetext.com/2">Sublime Text</a></li>
+              <li><a href="http://www.adobe.com/products/dreamweaver.html">Dreamweaver</a></li>
+              <li><a href="http://www.barebones.com/products/textwrangler/">Textwrangler</a></li>
+              <li><a href="https://filezilla-project.org/">Filezilla</a></li>
+              <li><a href="http://www.iso.org/iso/home.html">ISO.org</a></li>
+              <li><a href="http://www.webstandards.org/learn/faq/">Webstandards.org FAQ</a></li>
+              <li><a href="http://www.webstandards.org/">Webstandards.org</a></li>
+              <li><a href="http://www.w3.org/">W3 Schools</a></li>
+              <li><a href="http://validator.w3.org/">HTML Validator</a></li>
+              <li><a href="http://html5test.com/">HTML5 Test</a></li>
+              <li><a href="http://diveintohtml5.info/">Dive into HTML5</a></li>
+              <li><a href="http://introducinghtml5.com/">Introducing HTML5</a></li>      
+              <li><a href="http://www.google.com/webdesigner/">Google Web Designer</a></li>
+              <li><a href="http://squarespace.com/logo">Squarespace</a></li>
+             <li> <a href="http://static.googleusercontent.com/external_content/untrusted_dlcp/www.google.com/en//webmasters/docs/search-engine-optimization-starter-guide.pdf">Search Engine Optimization Guide</a></li>
+              <li><a href="http://necolas.github.io/normalize.css/">Normalize CSS</a></li>
+             <li><a href="http://foundation.zurb.com/">Foundation</a></li>
+              <li><a href="http://semantic.gs/">Semantic</a></li>
+              <li><a href="http://susy.oddbird.net/">Suzy</a></li>
+              <li><a href="http://httpd.apache.org/docs/current/howto/ssi.html">Apache</a></li>
+              <li><a href="http://prototypejs.org/">Prototype Javascript</a></li>
+              <li><a href="http://www.learningjquery.com/2009/04/better-stronger-safer-jquerify-bookmarklet/">Learning Jquery</a></li>
+
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <!--#include file="includes/footer.inc" -->
+  
+</body>
+</html>
