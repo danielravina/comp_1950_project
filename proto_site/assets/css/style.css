@@ -42,6 +42,11 @@ header#main h1 {
                   font-family: "dinregularwebfont";
 }
 
+.content-box h3{  font-size: 18px; color: #999999;
+                  font-family: "dinregularwebfont";
+                  padding: 20px 0px 0px 0px;
+}
+
 .content-box p{ line-height: 17px; 
 }
 
