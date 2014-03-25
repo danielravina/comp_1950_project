@@ -14,17 +14,24 @@
       </div>
         <div class="columns large-10">
           <div class="content-box">
+          
             <h2>Lecture Notes</h2>
               <p>Lecture notes goes here</p>
+              
             <h2>Code</h2>
               <p>Code examples goes here</p>
+              
             <h2>Excercise</h2>
+            
             <h2>Markup Exercise</h2>
               <div class="content-block">
                 <p>You have <strong>two pieces of homework</strong> for this week. Please finish both:</p>
-                  <ul><li><a href="exercises/content.html">Create a page for Finnegan</a> in XHTML Strict <strong>and</strong> HTML5</li>
-                    <li><a href="exercises/exercise2.html">Create a page for a Realtor</a> in XHTML Strict <strong>and</strong> HTML5</li></ul>
+                  <ul>
+                    <li><a href="exercises/content.html">Create a page for Finnegan</a> in XHTML Strict <strong>and</strong> HTML5</li>
+                    <li><a href="exercises/exercise2.html">Create a page for a Realtor</a> in XHTML Strict <strong>and</strong> HTML5</li>
+                  </ul>
               </div>
+              
             <h2>Resource</h2>
               <a href="www.google.com/chrome">Chrome</a>
               <a href="http://www.apple.com/safari/">Safari</a>
