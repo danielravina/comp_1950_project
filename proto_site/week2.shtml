@@ -10,59 +10,51 @@
   <section id="main">
     <div class="row">
       <div class="columns large-2">
-        <!--#include file="includes/main-navigation.inc" -->
+      <!--#include file="includes/main-navigation.inc" -->
       </div>
-      <div class="columns large-10">
-        <div class="content-box">
-        
-          <h2>Lecture Notes</h2>
-          <p>Lecture notes goes here</p>
-          
-          <h2>Code</h2>
-          <p>Code examples goes here</p>
-          
-          <h2>Excercise</h2>
-          <h2>Markup Exercise</h2>
-		        <div class="content-block">
-			         <p>You have <strong>two pieces of homework</strong> for this week. Please finish both:</p>
-			         <ul><li><a href="exercises/content.html">Create a page for Finnegan</a> in XHTML Strict <strong>and</strong> HTML5</li>
-			        <li><a href="exercises/exercise2.html">Create a page for a Realtor</a> in XHTML Strict <strong>and</strong> HTML5</li></ul>
-		       </div>
-		       
-          <h2>Resource</h2>
-          <a href="www.google.com/chrome">Chrome</a>
-          <a href="http://www.apple.com/safari/">Safari</a>
-          <a href="http://www.mozilla.org/en-US/firefox">Firefox</a>)
-          <a href="www.google.com/chrome">Chrome</a> 
-          <a href="https://addons.mozilla.org/extensions/?application=firefox">https://addons.mozilla.org/extensions/?application=firefox</a>
-          <a href="http://chrispederick.com/work/webdeveloper/">site for the Web Developer extension</a>
-          <a href="http://www.getfirebug.com" title="Get Firebug!">getfirebug.com</a>
-          
-          <a href="http://www.panic.com/coda/">Coda</a>
-		        <a href="http://www.sublimetext.com/2">Sublime Text 2</a>
-	         <a href="http://www.adobe.com/products/dreamweaver.html">Dreamweaver</a>
-		        <a href="http://cyberduck.ch/">Cyberduck FTP</a>
-		        <a href="http://www.ficml.org/jemimap/style/color/wheel.html">Color Wheel</a> 
-	        	<a href="http://notepad-plus-plus.org/">Notepad++</a> 
-		        <a href="http://filezilla-project.org">Filezilla</a> 
-		        <a href="http://www.barebones.com/products/textwrangler/">Text Wrangler</a> 
-		        <a href="http://www.htmlkit.com/">HTMLKit</a> 
-		        <a href="http://www.aptana.com/">Aptana</a> 
-	        	<a href="http://expression.microsoft.com/en-us/dd565874.aspx">Expression SuperPreview</a>
-		        <a href="http://www.textasticapp.com/">Textastic</a> 
-		        <a href="http://dropbox.com">Dropbox</a>
-		        <a href="http://www.activestate.com/komodo-edit">Komodo</a>
-          <a href="http://www.iso.org">http://www.iso.org</a>
-          
-          <a href="http://www.webstandards.org/">http://www.webstandards.org/</a>
-	         <a href="http://www.w3c.org">http://www.w3c.org</a>
-	         <a href="http://www.w3csites.com/">http://www.w3csites.com/</a>
-	         <a href="http://www.whatwg.org/specs/web-apps/current-work/">Living Standard</a>
-          
-        </div>
+        <div class="columns large-10">
+          <div class="content-box">
+            <h2>Lecture Notes</h2>
+              <p>Lecture notes goes here</p>
+            <h2>Code</h2>
+              <p>Code examples goes here</p>
+            <h2>Excercise</h2>
+            <h2>Markup Exercise</h2>
+              <div class="content-block">
+                <p>You have <strong>two pieces of homework</strong> for this week. Please finish both:</p>
+                  <ul><li><a href="exercises/content.html">Create a page for Finnegan</a> in XHTML Strict <strong>and</strong> HTML5</li>
+                    <li><a href="exercises/exercise2.html">Create a page for a Realtor</a> in XHTML Strict <strong>and</strong> HTML5</li></ul>
+              </div>
+            <h2>Resource</h2>
+              <a href="www.google.com/chrome">Chrome</a>
+              <a href="http://www.apple.com/safari/">Safari</a>
+              <a href="http://www.mozilla.org/en-US/firefox">Firefox</a>)
+              <a href="www.google.com/chrome">Chrome</a> 
+              <a href="https://addons.mozilla.org/extensions/?application=firefox">https://addons.mozilla.org/extensions/?application=firefox</a>
+              <a href="http://chrispederick.com/work/webdeveloper/">site for the Web Developer extension</a>
+              <a href="http://www.getfirebug.com" title="Get Firebug!">getfirebug.com</a>
+              <a href="http://www.panic.com/coda/">Coda</a>
+              <a href="http://www.sublimetext.com/2">Sublime Text 2</a>
+              <a href="http://www.adobe.com/products/dreamweaver.html">Dreamweaver</a>
+              <a href="http://cyberduck.ch/">Cyberduck FTP</a>
+              <a href="http://www.ficml.org/jemimap/style/color/wheel.html">Color Wheel</a> 
+              <a href="http://notepad-plus-plus.org/">Notepad++</a> 
+              <a href="http://filezilla-project.org">Filezilla</a> 
+              <a href="http://www.barebones.com/products/textwrangler/">Text Wrangler</a> 
+              <a href="http://www.htmlkit.com/">HTMLKit</a> 
+              <a href="http://www.aptana.com/">Aptana</a> 
+              <a href="http://expression.microsoft.com/en-us/dd565874.aspx">Expression SuperPreview</a>
+              <a href="http://www.textasticapp.com/">Textastic</a> 
+              <a href="http://dropbox.com">Dropbox</a>
+              <a href="http://www.activestate.com/komodo-edit">Komodo</a>
+              <a href="http://www.iso.org">http://www.iso.org</a>
+              <a href="http://www.webstandards.org/">http://www.webstandards.org/</a>
+              <a href="http://www.w3c.org">http://www.w3c.org</a>
+              <a href="http://www.w3csites.com/">http://www.w3csites.com/</a>
+              <a href="http://www.whatwg.org/specs/web-apps/current-work/">Living Standard</a>
+          </div>
       </div>
     </div>
-
   </section>
   <!--#include file="includes/footer.inc" -->
 </body>
