@@ -19,7 +19,21 @@
               <p>Lecture notes goes here</p>
               
             <h2>Code</h2>
-              <p>Code examples goes here</p>
+              
+            <h3>Example of an XHTML Document</h3>
+
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE html
+PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<title>COMP 1950 - Intermediate Web Development and Design</title>
+</head>
+<body>
+<h1>Welcome!</h1>
+<p>This class will begin at 6:45 each Tuesday for 12 weeks</p>
+</body>
+</html>
               
             <h2>Excercise</h2>
             
