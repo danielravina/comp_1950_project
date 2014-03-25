@@ -17,103 +17,190 @@
           <h2>Lecture Notes</h2>
           
           <h2>Week One - introduction</h2>
-
-             <p>Here is the current Course Outline (by week):</p>
-		 	   <p>Week 1</p>
-			             <ul>
-			               <li>Course Introduction: (this week!)</li>
-			               <li>Why are you here</li>
-			               <li>What you will learn</li>
-			               <li>Student Survey</li>
-			               <li>Assignment 1: Course homepage</li>
-        			     </ul>
+          
+<h2>Outline</h2>
+	<div class="content-block">          
+<p>Here is the current Course Outline (by week):</p>
 		
-		           <p>Week 2</p>
-			             <ul>
-			               <li>Web Development tools</li>
-			               <li>Standards in Web development</li>
-			               <li>Assignment 2: Using tools & standards</li>
-                		     </ul>
+		<dl class="outline">
+			<dt>Week 1</dt>
+			<dd>Course Introduction: (this week!)</dd>
+			<dd>Why are you here</dd>
+			<dd>What you will learn</dd>
+			<dd>Student Survey</dd>
+			<dd><strong>Assignment 1:</strong> Course homepage</dd>
+			
+	<dt>Week 2</dt>
+	<dd>Web Development tools</dd>
+	<dd>Standards in Web development</dd>  
+	<dd><strong>Assignment 2: </strong>Using tools &amp; standards</dd>
+
+	<dt>Week 3</dt>
+	<dd>XHTML1, XHTML 2, HTML 4, HTML 5</dd>
+	<dd>History and current developments</dd>
+	<dd>What is the best development language?</dd>
+	<dd><strong>Assignment 3:</strong> Working with different MLs</dd>
+
+	<dt>Week 4</dt>
+	<dd><strong>Quiz 1:</strong> Markup</dd>
+	<dd>Review of CSS</dd>
+	<dd>Beyond text formatting</dd>
+	<dd><strong>Assignment 4:</strong> Using different stylesheets</dd>
+
+	<dt>Week 5</dt>
+	<dd>Advanced CSS</dd>
+	<dd>Layout and positioning</dd>
+	<dd><strong>Assignment 5:</strong> Troubleshooting CSS, Positioning Exercises</dd>
+
+	<dt>Week 6</dt>
+	<dd>Understanding Server Side Includes</dd>
+	<dd>Beyond SSIs: Delivering dynamic information</dd>
+	<dd>Introduction to template development</dd>
+	<dd><strong>Assignment 6:</strong> Template</dd>
+
+	<dt>Week 7</dt>
+	<dd>&rarr; <em>Midterm</em></dd>
+	<dd>More Template Development</dd>
+	<dd>Used in Blogs, wikis, user-driven sites, communities</dd>
+	<dd><strong>Assignment 7:</strong> Template II</dd>
+
+	<dt>Week 8</dt>
+	<dd>Development Methodology </dd>
+	<dd>Requirements, Design, Production, Launch, Maintenance</dd>
+	<dd><strong>Project outlined</strong></dd>
+	<dd><strong>Assignment 8:</strong> Methodology Notes</dd>
+
+	<dt>Week 9</dt>
+	<dd>Behaviour</dd>
+	<dd>Adding interactivity</dd>
+	<dd>JavaScript Libraries and Frameworks</dd>
+	<dd><strong>Assignment 9:</strong> Javascript exercises</dd>
+
+	<dt>Week 10</dt>
+	<dd>Site Construction</dd>
+	<dd>Bringing it all together</dd>
+	<dd>Source/Revision Control using GIT</dd>
+	<dd><strong>Assignment 10</strong>: Completed site</dd>
+
+	<dt>Week 11</dt>
+	<dd>Project Work</dd>
+
+	<dt>Week 12</dt>
+	<dd>Final Examination</dd>
+
+	</dl>
+	</div>
+
+
+<h2>Other subjects?  Tailor the course!</h2>
+
+<div class="content-block">
+
+	<ul>
+
+	<li>What would you <strong>like</strong> to learn about?</li>
+
+	<li>What are you most interested in learning?</li>
+
+	<li>What skills would you like to acquire?</li>
+
+	<li>Are there subjects not covered here?</li>
+	<li>Brief introduction to myBCIT and a course survey</li>
+
+	</ul>
+
+</div>	
+	
+	<h2>introductions</h2>
+	<div class="content-block">
+	<p><strong>All About Alistair Calder</strong></p>
+		<ul>
+		<li>Web Developer since 1995</li>
+		<li>Lead web developer for:
+			<ul><li>Top Producer Systems</li>
+			   <li>Multiactive</li>
+				<li>One Atmosphere (my own design firm)</li></ul></li>
+
+		<li><strong>Currently:</strong> Technical lead on student portal, myBCIT</li>
+		<li>Broad knowledge set focussed mainly on web technologies</li>
+		</ul>
+</div>
+
+<h2>trivia</h2>
+<div class="content-block">
+<ul>
+	<li>Worked as:
+		<ul>
+			<li>Real Estate Agent</li>
+			<li>Waiter</li>
+			<li>Car Parts Stacker</li>
+			<li>Corporate Trainer</li>
+			<li>Played in a band for 3 years</li>
+			<li>Software Technical Support</li>
+			<li>Muffin Tin Greaser</li>
+		</ul>
+
+	</li>
+	<li>Locked myself on the roof of the Rogers Cantel building up at Metrotown by accident.  Had to call a friend to come up and let me back in the building.</li>
+	<li>Live with a Nova Scotia Duck Tolling Retriever: <a href="http://www.alistair.com/collection/finnegan/2005_07/">Finnegan</a></li>
+	</ul>
+</div>
+
+<h2>Introductions: Who Are You?</h2>
+<div class="content-block">
+<p>Pair up with your neighbour and find out from them:</p>
+	<ul>
+	<li>Name</li>
+	<li>Occupation</li>
+	<li>Web Development Experience</li>
+	<li>What do you want to get out of the course?</li>
+	<li>Little-known trivia</li>
+
+	</ul>
+<p>After 5 minutes, you will introduce your classmate.</p>
+
+</div>
 		
-		           <p>Week 3</p>
-			             <ul>
-			               <li>XHTML1, XHTML 2, HTML 4, HTML 5</li>
-			               <li>History and current developments</li>
-			               <li>What is the best development language?</li>
-			               <li>Assignment 3: Working with different MLs</li>
-        			     </ul>
-		
-        		   <p>Week 4</p>
-			             <ul>
-			               <li>Quiz 1: Markup</li>
-			               <li>Review of CSS</li>
-			               <li>Beyond text formatting</li>
-			               <li>Assignment 4: Using different stylesheets</li>
-        			     </ul>
-		
-		             <p>Week 5</p>
-			             <ul>
-			               <li>Advanced CSS</li>
-			               <li>Layout and positioning</li>
-			               <li>Assignment 5: Troubleshooting CSS, Positioning Exercises</li>
-        			      </ul>
+		<h2>web space</h2>
+		<div class="content-block">
 
-	        	     <p>Week 6</p>
-			             <ul>
-			               <li>Understanding Server Side Includes</li>
-			               <li>Beyond SSIs: Delivering dynamic information</li>
-			               <li>Introduction to template development</li>
-			               <li>Assignment 6: Template</li>
-                		     </ul>
+<p>Each student will get personal webspace.  This may be different than in the past, as this space is exclusively yours, with your own username and password.</p>
 
-	               	      <p>Week 7</p>
-			             <ul>
-			               <li>Midterm</li>
-			               <li>More Template Development</li>
-			               <li>Introduction to template development</li>
-			               <li>Used in Blogs, wikis, user-driven sites, communities</li>
-			               <li>Assignment 7: Template II</li>
-        			     </ul>
+<p>This is also not a continuation of your COMP1850 site (if you had one).  This site is primarily for you to house your exercises, assignments, group work and more.  Make it a site that is usable and functional.</p>
 
-			     <p>Week 8</p>
-			             <ul>
-			               <li>Development Methodology</li>
-			               <li>Requirements, Design, Production, Launch, Maintenance</li>
-			               <li>Project outlined</li>
-			               <li>Assignment 8: Methodology Notes</li>
-        			     </ul>
-	
-			     <p>Week 9</p>
-			             <ul>
-			               <li>Behaviour</li>
-			               <li>Adding interactivity</li>
-			               <li>JavaScript Libraries and Frameworks</li>
-			               <li>Assignment 9: Javascript exercises</li>
-        			     </ul>
-	
-			     <p>Week 10</p>
-			             <ul>
-			               <li>Site Construction</li>
-			               <li>Bringing it all together</li>
-			               <li>Source/Revision Control using GIT</li>
-			               <li>Assignment 10: Completed site</li>
-        			     </ul>
-	
-			     <p>Week 11</p>
-			             <ul>
-			               <li>Project Work</li>
-        			     </ul>
-	
-			     <p>Week 12</p>
-			             <ul>
-			               <li>Final Examination</li>
-        			     </ul>
+<h3>TheNet Setup</h3>
+<ul>
+	<li>Your account name has already been created: first initial + last name. Example, John Smith would be jsmith</li>
+	<li>Passwords were randomized at account creation, so you will have to create yours</li>
+	<li>Be prepared to enter your password when you come to the front
+	<li>Your URL will be: <strong>http://students.thenet.ca/{accountname}</strong></li>
+
+</ul>
+</div>
 
 
+<h2>FTP into your Account</h2>
+<div class="content-block">
+
+<p>You can use any FTP program you are comfortable with. There is most likely one installed in the labs (it changes from term to term) but you can download and install any one you want.</p>
+
+<p><a href="https://filezilla-project.org">Filezilla</a> is a great FTP client that works on Mac/PC/Linux if you are looking for one to install on your laptop or at home</p>
+<p>If you aren't knowledgeable with any FTP programs yet, just let me know!</p>
+
+<p>Here is the relevant information you will need to know:</p>
+<ul>
+	<li>Host / IP / URL: <strong>thenet.ca</strong></li>
+	<li>Username (It's important that you have the accountname <strong>and</strong> the domain for your Username to work): <strong>{accountname}@thenet.ca</strong></li>
+	<li>Password: <strong>{the password you entered}</strong></li>
+</ul>
+
+</div>
+
+           
           <h2>Code</h2>
         	 <a href="http://past.thenet.ca/lori/">Lori's Example of a Comp1950 Homepage</a>
           
-          <h2>Excercise</h2>
+          <h2>Exercise</h2>
         
 		<p>Create your course web site:</p>
 
