@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <title>COMP1950 :: Site Map</title>
- <link rel="stylesheet" href="assets/css/slickmap.css">
+ <link rel="stylesheet" href="assets/css/sitemap.css">
  <!--#include file="includes/head.inc" -->
  <style>
   #primaryNav #home { background: none;}
@@ -55,7 +55,11 @@
     <div class="sitemap">
 
       <ul id="subNav" class="col4">
+        <div>
+        <div id="subnav_head">
+          <p>SUB NAV</p>
         </div>
+
         <ul id="primaryNav" class="col4">
           <li id="home"><a href="http://teams.thenet.ca/tbd">HOME</a></li>
           <li><a href="/lectures">LECTURES</a>

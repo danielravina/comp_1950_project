@@ -98,14 +98,14 @@ ol, ul {
 	display: block;
 	float: none;
 	margin: auto;
-	background: #ffffff url('../img/homebar.png') center bottom no-repeat;
+	background: #ffffff url('../img/L1-left.png') top center no-repeat;
 	position: relative;
 	z-index: 2;
 	padding: 0 0 30px 0;
 }
 #primaryNav li {
 	float: left;
-	background: url('../img/L1-left.png') center top no-repeat;
+	background: url('../img/L1-center.png') center top no-repeat;
 	padding: 30px 0;
 	margin-top: -30px;
 }
@@ -135,7 +135,7 @@ a:visited:before {
 	content: " "attr(href)" ";
 	display: block;
 	font-size: 12px;
-	margin-bottom: 5px;
+	margin: 0px 0px 5px 0px;
 	word-wrap: break-word;
 }
 #primaryNav li a:link:before,
@@ -146,15 +146,15 @@ a:visited:before {
 /* --------	Second Level --------- */
 
 #primaryNav li li {
-	width: 100%;
+	width: 90%;
 	clear: left;
-	margin: 0px 0px 0px -10px;
+	margin: 0px 0px 0px 0px;
 	padding: 15px 0px 0px 0px;
 	background: url('../img/vertical-line.png') center bottom repeat-y;
 }
 #primaryNav li li a {
 	background-color: #f2f2f2;
-	padding: 5px 0px 2px 0px;
+	padding: 5px 10px 2px 0px;
 	margin: 0px 0px 0px 0px;
 	color: black;
 	border: solid .25px #cccccc;
@@ -263,15 +263,15 @@ a:visited:before {
 /* --------	Second Level --------- */
 
 #subNav li li {
-	width: 100%;
+	width: 90%;
 	clear: left;
-	margin: 0px 0px 0px -10px;
+	margin: 0px 0px 0px 0px;
 	padding: 15px 0px 0px 0px;
 	background: url('../img/vertical-line.png') center bottom repeat-y;
 }
 #subNav li li a {
 	background-color: #f2f2f2;
-	padding: 5px 0px 2px 0px;
+	padding: 5px 10px 2px 0px;
 	margin: 0px 0px 0px 0px;
 	color: black;
 	border: solid .25px #cccccc;
