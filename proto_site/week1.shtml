@@ -15,7 +15,121 @@
       <div class="columns large-10">
         <div class="content-box">
           <h2>Lecture Notes</h2>
-          <p>Lecture notes goes here</p>
+          
+          <h2>Week One - introduction</h2>
+
+             <p>Here is the current Course Outline (by week):</p>
+		 		        <p>Week 1</p>
+			             <ul>
+			               <li>Course Introduction: (this week!)</li>
+			               <li>Why are you here</li>
+			               <li>What you will learn</li>
+			               <li>Student Survey</li>
+			               <li>Assignment 1: Course homepage</li>
+                 </ul>
+		
+		           <p>Week 2</p>
+			             <ul>
+			               <li>Web Development tools</li>
+			               <li>Standards in Web development</li>
+			               <li>Assignment 2: Using tools & standards</li>
+                </ul>
+		
+		           <p>Week 3</p>
+			             <ul>
+			               <li>XHTML1, XHTML 2, HTML 4, HTML 5</li>
+			               <li>History and current developments</li>
+			               <li>What is the best development language?</li>
+			               <li>Assignment 3: Working with different MLs</li>
+                </ul>
+		
+              <p>Week 4</p>
+			             <ul>
+			               <li>Quiz 1: Markup</li>
+			               <li>Review of CSS</li>
+			               <li>Beyond text formatting</li>
+			               <li>Assignment 4: Using different stylesheets</li>
+                </ul>
+		
+		             <p>Week 5</p>
+			             <ul>
+			               <li>Advanced CSS</li>
+			               <li>Layout and positioning</li>
+			               <li>Assignment 5: Troubleshooting CSS, Positioning Exercises</li>
+                </ul>
+
+	               <p>Week 6</p>
+			             <ul>
+			               <li>Understanding Server Side Includes</li>
+			               <li>Beyond SSIs: Delivering dynamic information</li>
+			               <li>Introduction to template development</li>
+			               <li>Assignment 6: Template</li>
+                </ul>
+
+	               <p>Week 6</p>
+			             <ul>
+			               <li>Understanding Server Side Includes</li>
+			               <li>Beyond SSIs: Delivering dynamic information</li>
+			               <li>Introduction to template development</li>
+			               <li>Assignment 6: Template</li>
+                </ul>
+
+	
+
+
+	
+Week 7
+	
+→ Midterm
+	
+More Template Development
+	
+Used in Blogs, wikis, user-driven sites, communities
+	
+Assignment 7: Template II
+	
+Week 8
+	
+Development Methodology
+	
+Requirements, Design, Production, Launch, Maintenance
+	
+Project outlined
+	
+Assignment 8: Methodology Notes
+	
+Week 9
+	
+Behaviour
+	
+Adding interactivity
+	
+JavaScript Libraries and Frameworks
+	
+Assignment 9: Javascript exercises
+	
+Week 10
+	
+Site Construction
+	
+Bringing it all together
+	
+Source/Revision Control using GIT
+	
+Assignment 10: Completed site
+	
+Week 11
+	
+Project Work
+	
+Week 12
+	
+Final Examination
+		
+
+
+
+
           <h2>Code</h2>
           <p>Code examples goes here</p>
           <h2>Excercise</h2>
