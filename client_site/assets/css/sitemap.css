@@ -107,7 +107,8 @@ ol, ul {
 	float: left;
 	background: url('../img/L1-center.png') center top no-repeat;
 	padding: 30px 0;
-	margin-top: -30px; 
+	margin-top: -30px;
+
 }
 #primaryNav li a {
 	margin: 0px 10px 0px 10px;
@@ -117,7 +118,7 @@ ol, ul {
 	font-family: "DINMedium";
 	text-align: center;
 	color: #ffffff;	
-	background: #1fad92 url('../imgwhite-highlight.png') top left repeat-x; 
+	background: #1388b9 url('../imgwhite-highlight.png') top left repeat-x; border: solid .25px black;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
 	-webkit-box-shadow: rgba(0,0,0,0.5) 2px 2px 2px; 
@@ -171,123 +172,6 @@ a:visited:before {
 }
 #primaryNav li li a:link:before,
 #primaryNav li li a:visited:before {
-	color: #666666;
-}
-
-/* --------	Sub Level Nav --------- */
-
-/* ------------------------------------------------------------
-	NUMBER OF COLUMNS: Adjust #primaryNav li to set the number
-	of columns required in your site map. The default is 
-	4 columns (25%). 5 columns would be 20%, 6 columns would 
-	be 16.6%, etc. 
------------------------------------------------------------- */
-
-#subNav li {
-	width:25%;
-}
-
-#subNav li ul li {
-	width:100% !important;
-}
-
-#subNav.col1 li { width:99.9%; }
-#subNav.col2 li { width:50.0%; }
-#subNav.col3 li { width:33.3%; }
-#subNav.col4 li { width:25.0%; }
-#subNav.col5 li { width:20.0%; }
-#subNav.col6 li { width:16.6%; }
-#subNav.col7 li { width:14.2%; }
-#subNav.col8 li { width:12.5%; }
-#subNav.col9 li { width:11.1%; }
-#subNav.col10 li { width:10.0%; }
-
-/* ------------------------------------------------------------
-	General Styles
------------------------------------------------------------- */
-
-#subNav {
-	margin: 30px auto 0px auto;
-	width: 100%;
-}
-
-#subnav_head{	margin: auto;
-				float: none;
-				text-align: center;
-				font-family: 'din_lightregular';
-				font-size: 23px;
-				color: #1fad92;	
-
-}
-
-#subNav li {
-	float: center;
-	background: url('../img/L1-center.png') center top no-repeat;
-	padding: 30px 0;
-	margin-top: -30px;
-}
-#subNav li a {
-	margin: 0px 10px 0px 10px;
-	padding: 10px 0px;
-	display: block;
-	font-size: 16px;
-	font-family: "DINMedium";
-	text-align: center;
-	color: #1fad92;	
-	background: #666666 url('../imgwhite-highlight.png') top left repeat-x;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
-	-webkit-box-shadow: rgba(0,0,0,0.5) 2px 2px 2px; 
-	-moz-box-shadow: rgba(0,0,0,0.5) 2px 2px 2px; /* FF 3.5+ */	
-}
-#subNav li a:hover {
-	background-color: #333333;
-	border-color: #97bdcf;
-}
-#subNavv li:last-child {
-	background: url('../img/L1-right.png') center top no-repeat;
-}
-a:link:before,
-a:visited:before {
-	content: " "attr(href)" ";
-	display: block;
-	font-size: 12px;
-	margin-bottom: 5px;
-	word-wrap: break-word;
-}
-#subNav li a:link:before,
-#subNav li a:visited:before {
-	color: #ffffff;
-}
-
-/* --------	Second Level --------- */
-
-#subNav li li {
-	width: 90%;
-	clear: left;
-	margin: 0px 0px 0px 0px;
-	padding: 15px 0px 0px 0px;
-	background: url('../img/vertical-line.png') center bottom repeat-y;
-}
-#subNav li li a {
-	background-color: #f2f2f2;
-	padding: 5px 10px 2px 0px;
-	margin: 0px 10px 0px 10px;
-	color: black;
-	border: solid .25px #cccccc;
-}
-#subNav li li a:hover {
-	border-color: #666666;
-	background-color: #cccccc;
-}
-#subNav li li:first-child {
-	padding-top: 30px;
-}
-#subNav li li:last-child {
-	background: url('../img/vertical-line.png') center bottom repeat-y;
-}
-#subNav li li a:link:before,
-#subNav li li a:visited:before {
 	color: #666666;
 }
 
