@@ -6,7 +6,18 @@
 </head>
 <body>
   <!--#include file="includes/header.inc" -->
-  <!--#include file="includes/sub-navigation.inc" -->
+  <section id="sub-navigation">
+  <div class="row">
+    <div class="columns large-12 right">
+      <div class="content-tabs right">
+        <nav id="tabs">
+         <!-- Empty nav -->
+         <ul><li><a href="">Alumni</a></li></ul>
+        </nav>
+      </div>
+    </div>  
+  </div>
+</section>
   <section id="main">
     <div class="row">
       <div class="columns large-2">
@@ -27,7 +38,7 @@
       	       </ol>
           </div>
         </div>
-      </div>. Left weeks 2 and 3.
+      </div>
   </section>
   <!--#include file="includes/footer.inc" -->
 </body>

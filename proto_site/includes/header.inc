@@ -7,9 +7,6 @@
       <form>
         <div class="large-8 right">
           <div class="row">
-            <div class="large-2 columns">
-              <label for="right-label" class="right inline">Label</label>
-            </div>
             <div class="large-10 columns">
               <div class="row collapse">
                 <div class="columns large-11">

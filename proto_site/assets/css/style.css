@@ -10,12 +10,11 @@ body {
 }
 header#main {
   background: rgb(51,51,51);
-  /*padding:40px 20px;*/
 }
 
 header#main > .row {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 header#main h1 {

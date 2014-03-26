@@ -6,48 +6,78 @@
 <body>
   <!--#include file="includes/header.inc" -->
   <section id="sub-navigation">
-  <div class="row">
-    <div class="columns large-12 right">
-      <div class="content-tabs right">
-        <nav id="tabs">
-         <!-- Empty nav -->
-         <ul><li><a href="">Welcome!</a></li></ul>
-        </nav>
-      </div>
-    </div>  
-  </div>
-</section>
-  <section id="main">
     <div class="row">
-      <div class="columns large-2">
-        <!--#include file="includes/main-navigation.inc" -->
-      </div>
-      <div class="columns large-10">
-        <div class="content-box">
-          <h2>Lecture Notes</h2>
-          <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras mattis consectetur purus sit amet fermentum. Cras mattis consectetur purus sit amet fermentum.
+      <div class="columns large-12 right">
+        <div class="content-tabs right">
+          <nav id="tabs">
+           <!-- Empty nav -->
+           <ul><li><a href="">Welcome!</a></li></ul>
+         </nav>
+       </div>
+     </div>  
+   </div>
+ </section>
+ <section id="main">
+  <div class="row">
+    <div class="columns large-2">
+      <!--#include file="includes/main-navigation.inc" -->
+    </div>
+    <div class="columns large-10">
+      <div class="content-box">
+        <h3>Fall 2011 - welcome!</h3>
+        <p>the agenda for week 1 is the following:</p>
+        <ul>
+          <li>about this course (outline, administrivia, assignments, etc)</li>
+          <li>Textbook</li>
+          <li>introductions (me, you)</li>
+          <li>web space (thenet.ca)</li>
+          <li>some expectations & reminders</li>
+          <li>today's assignment</li>
+        </ul>
+        <h3>about this course</h3>
+        <p>Official details about the who, what, where and how are located in the outlines section on the BCIT web site</p>
 
-          Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Nulla vitae elit libero, a pharetra augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.
+        <h3>Assignments</h3>
+        <ul>
+          <li>Generally given during the lab portion, due the day before the next class:
+            ie: Tuesday class assignments are due the following Monday, Thursday class assignments are due the following Wednesday.</li>
+            <li>Linked from your COMP 1950 page (more on that later)</li>
+          </ul>
+          <h3>Textbook</h3>
+          <li>There is no textbook for this class - why?</li>
+          <h3>Quizzes & final exam</h3>
+          <p>All quizzes will feature at least one, and possibly all of the following question types:</p>
+          <ul>
+            <li>fill-in-the-blanks</li>
+            <li>short answer</li>
+            <li>matching</li>
+            <li>code correction</li>
+            <li>code writing</li>
+          </ul>
+          <h3>Dates/Times</h3>
+          <p><b>Burnaby</b></p>
 
-          Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Etiam porta sem malesuada magna mollis euismod. Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus. Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
-          <h2>Code</h2>
-          <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras mattis consectetur purus sit amet fermentum. Cras mattis consectetur purus sit amet fermentum.
+          <b>Dates</b>
+          <ul>
+            <li>Tuesdays, starting September 13th concluding November 29th, 2011</li>
+          </ul>
+          <b>Times</b>
+          <ul>
+            <li>Begins at 6:30 and goes until 9:30 with a 15 minute break</li>
+          </ul>
 
-          Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Nulla vitae elit libero, a pharetra augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.
+          <p><b>Downtown</b></p>
 
-          Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Etiam porta sem malesuada magna mollis euismod. Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus. Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
-          <h2>Excercise</h2>
-          <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras mattis consectetur purus sit amet fermentum. Cras mattis consectetur purus sit amet fermentum.
-
-          Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Nulla vitae elit libero, a pharetra augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.
-
-          Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Etiam porta sem malesuada magna mollis euismod. Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus. Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
-          <h2>Resource</h2>
-          <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras mattis consectetur purus sit amet fermentum. Cras mattis consectetur purus sit amet fermentum.
-
-          Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Nulla vitae elit libero, a pharetra augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.
-
-          Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Etiam porta sem malesuada magna mollis euismod. Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus. Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
+          <b>Dates</b>
+          <ul>
+            <li>Thursdays, starting September 15th concluding December 1st, 2011</li>
+          </ul>
+          <b>Times</b>
+          <ul>
+            <li>Begins at 6:30 and goes until 9:30 with a 15 minute break</li>
+          </ul>
+          <h3>Let's get started!</h3>
+          <p>Let's go onto week one</p>
         </div>
       </div>
     </div>
