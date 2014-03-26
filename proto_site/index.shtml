@@ -44,7 +44,7 @@
             <li>Linked from your COMP 1950 page (more on that later)</li>
           </ul>
           <h3>Textbook</h3>
-          <li>There is no textbook for this class - why?</li>
+          <p>There is no textbook for this class - why?</p>
           <h3>Quizzes & final exam</h3>
           <p>All quizzes will feature at least one, and possibly all of the following question types:</p>
           <ul>
@@ -77,7 +77,7 @@
             <li>Begins at 6:30 and goes until 9:30 with a 15 minute break</li>
           </ul>
           <h3>Let's get started!</h3>
-          <p>Let's go onto week one</p>
+          <p><a href="week1.shtml">Let's go onto week one</a></p>
         </div>
       </div>
     </div>

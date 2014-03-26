@@ -15,7 +15,7 @@
       <div class="columns large-10">
         <div class="content-box">
         
-          <h2>Lecture Notes</h2>     
+          <h2 id="lecture-notes">Lecture Notes</h2>     
           <h2>Week One - introduction</h2>
 			<h2>Outline</h2>
 		<div class="content-block">          
@@ -165,10 +165,10 @@
 						</ul>
 				</div>
 				
-			<h2>Code</h2>
+			<h2 id="code-examples">Code / Examples</h2>
 				<a href="http://past.thenet.ca/lori/">Lori's Example of a Comp1950 Homepage</a>
 				
-			<h2>Exercise</h2>
+			<h2 id="exercises">Exercise</h2>
 				<p>Create your course web site:</p>
 				<p>Check out the example page created by a past student: Lori's Example</p>
 				<p>Specifically, what I would like to see:</p>
@@ -185,7 +185,7 @@
 				<p>One caveat: No Javascript at all</p>
 				<p>There needs to be a link from the myBCIT Members page to your Student Homepage</p>
 				
-			<h2>Resource</h2>
+			<h2 id="web-resources">Resource</h2>
 				<a href="https://filezilla-project.org/">Filezilla</a>
 			</div>
 		</div>

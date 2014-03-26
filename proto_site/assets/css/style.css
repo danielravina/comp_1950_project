@@ -36,14 +36,18 @@ header#main h1 {
   height: 570px;
   overflow: auto;
 }
-
-.content-box h2{  font-size: 20px;
-                  font-family: "dinregularwebfont";
+.content-box h1{ 
+  font-size: 25px;
+}
+.content-box h2{  
+  font-size: 20px;
+  font-family: "dinregularwebfont";
 }
 
-.content-box h3{  font-size: 18px; color: #999999;
-                  font-family: "dinregularwebfont";
-                  padding: 20px 0px 0px 0px;
+.content-box h3{  
+  font-size: 18px; color: #999999;
+  font-family: "dinregularwebfont";
+  padding: 20px 0px 0px 0px;
 }
 
 .content-box p{ line-height: 17px; }
