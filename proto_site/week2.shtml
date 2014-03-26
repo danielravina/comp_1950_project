@@ -343,7 +343,7 @@
             <p>&#8826/html&#8827</p><br>
           </div>
 
-          <h2 id="excercise">Markup Exercise</h2>
+          <h2 id="excercises">Markup Exercise</h2>
           <div class="content-block">
             <p>You have <strong>two pieces of homework</strong> for this week. Please finish both:</p>
             <ul>
@@ -390,7 +390,7 @@
             <li><a href="http://www.w3c.org">http://www.w3c.org</a></li>
             <li><a href="http://www.w3csites.com/">http://www.w3csites.com/</a></li>
             <li><a href="http://www.whatwg.org/specs/web-apps/current-work/">Living Standard</a></li>
-            
+
           </ul>
         </div>
       </div>
