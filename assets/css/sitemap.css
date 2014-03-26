@@ -92,7 +92,7 @@ ol, ul {
 
 #primaryNav {
 	margin: 30px auto 0px auto;
-	width: 80%;
+	width: 85%;
 }
 #primaryNav #home {
 	display: block;
@@ -123,6 +123,7 @@ ol, ul {
 	-webkit-box-shadow: rgba(0,0,0,0.5) 2px 2px 2px; 
 	-moz-box-shadow: rgba(0,0,0,0.5) 2px 2px 2px; /* FF 3.5+ */	
 }
+
 #primaryNav li a:hover {
 	background-color: #666666;
 	border-color: #97bdcf;
