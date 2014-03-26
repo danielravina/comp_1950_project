@@ -19,7 +19,7 @@
 
       <ul id="primaryNav" class="col5">
         <li id="home"><a href="http://teams.thenet.ca/tbd">HOME</a></li>
-        <li><a href="/lecture.shtml">LECTURES</a>
+        <li><a href="/about.shtml">ABOUT</a>
           <ul>
             <li><a href="/week1.shtml">01 | introduction</a></li>
             <li><a href="/week2.shtml">02 | tools & standards</a></li>
