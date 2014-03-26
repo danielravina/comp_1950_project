@@ -153,7 +153,7 @@ a:visited:before {
 	background: url('../img/vertical-line.png') center bottom repeat-y;
 }
 #primaryNav li li a {
-	background-color: #f2f2f2;
+	background-color: #b3b3b3;
 	padding: 5px 10px 2px 0px;
 	margin: 0px 10px 0px 10px;
 	color: black;
@@ -161,7 +161,7 @@ a:visited:before {
 }
 #primaryNav li li a:hover {
 	border-color: #666666;
-	background-color: #cccccc;
+	background-color: #ffffff;
 }
 #primaryNav li li:first-child {
 	padding-top: 30px;
@@ -270,15 +270,15 @@ a:visited:before {
 	background: url('../img/vertical-line.png') center bottom repeat-y;
 }
 #subNav li li a {
-	background-color: #f2f2f2;
+	background-color: #b3b3b3;
 	padding: 5px 10px 2px 0px;
 	margin: 0px 10px 0px 10px;
 	color: black;
-	border: solid .25px #cccccc;
+	border: solid .25px #999999;
 }
 #subNav li li a:hover {
 	border-color: #666666;
-	background-color: #cccccc;
+	background-color: #ffffff;
 }
 #subNav li li:first-child {
 	padding-top: 30px;
