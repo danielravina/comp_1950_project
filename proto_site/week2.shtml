@@ -13,11 +13,11 @@
         <!--#include file="includes/main-navigation.inc" -->
       </div>
       <div class="columns large-10">
-      <div class="content-box">
-          <h1>Lecture Week 2 - Tools and Standards</h1>
+        <div class="content-box">
+          <h1>Week 2 - Tools and Standards</h1>
           <h2 id="lecture-notes">Lecture Notes</h2>
 
-          <h2>agenda</h2>
+          <h3>Agenda</h3>
           <div class="content-block">
 
             <ul>
@@ -29,12 +29,12 @@
             </ul>	
           </div>
 
-          <h2>web review: reminders<h2>
-            <div class="content-block">
+          <h3>Web Review: Reminders</h3>
+          <div class="content-block">
 
-             <p>There are a few things that bear reminding:</p>
+            <h4>There are a few things that bear reminding:</h4>
 
-             <ul>
+            <ul>
               <li>file and folder names cannot contain:</li>
               <ul>
                 <li>capital letters</li>
@@ -46,11 +46,9 @@
             </ul>
           </div>
 
-          <h2>Browser Tools</h2>
+          <h3>Browser Tools</h3>
           <div class="content-block">
-
-           <h3>Lots of options<h3>
-
+            <h4>Lots of options</h4>
             <ul>
               <li>These days there are lots of browser-based tools available for web developers</li>
               <li>Webkit (Chrome, Safari) and Mozilla (Firefox) both have built-in tools</li>
@@ -59,7 +57,7 @@
               <li>We will look at Chrome and Safari but, in COMP 1950, the focus will be Firefox</li>
             </ul>	
 
-            <h3>Why Use Firefox?</h3>
+            <h4>Why Use Firefox?</h4>
             <ul>
               <li>Open source and user supported</li>
               <li>Extremely standards compliant</li>
@@ -71,314 +69,333 @@
               <li>Excellent selection of extensions</li>
             </ul>
 
-            <h3>Challenges</h3>
+            <h4>Challenges</h4>
             <ul>
               <li>Open source and user supported</li>
               <li>User contributable code and suggestions</li>
               <li>Can become heavy under it's own weight: extensions & add-ons</li>
             </ul>
 
-            <h3>Considerations<h3>
-              <ul>
-                <li>Remember that there are other browsers out there!</li>
-                <li>Test in Moz/IE/Opera/FF and anything else just to be sure</li>
+            <h4>Considerations</h4>
+            <ul>
+              <li>Remember that there are other browsers out there!</li>
+              <li>Test in Moz/IE/Opera/FF and anything else just to be sure</li>
+            </ul>
+          </div>
+
+          <h3>Built-in tools</h3>
+          <div class="content-block">
+
+            <h4>Starting with the built-in web developer tools:</h4>
+            <ul>
+              <li>Firefox Developer Toolbar</li>
+              <li>Includes console, debugger, inspector</li>
+              <li>Also includes multiple view options, ability to include style and even full size screenshots</li>
+              <li>Responsive Design view</li>
+              <li>Scratchpad for JavaScript stuff</li>
+              <li>Separate style editor</li>
+            </ul>
+            <p>Some pretty great stuff, but there are other tools out there that offer far more!</p>
+          </div>
+          <h4>Extensions</h4>
+          <p>Extensions are a big part of Firefox:<br /><a href="https://addons.mozilla.org/extensions/?application=firefox">https://addons.mozilla.org/extensions/?application=firefox</a></p>
+          <p>There are many to choose from, with an entire category dedicated to <a href="https://addons.mozilla.org/en-US/firefox/browse/type:1/cat:4">Web and Developer Tools</a></p>
+          <p>The best tool for Web Developers is the <a href="https://addons.mozilla.org/extensions/moreinfo.php?application=firefox&category=Developer%20Tools&numpg=10&id=60">Web Developer toolbar</a></p>
+          <p>The author, Chris Pedrick, maintains a <a href="http://chrispederick.com/work/webdeveloper/">site for the Web Developer extension</a>.</p>
+          <p>Some of the amazing tools this has to offer web developers:</p>
+          <ul>
+            <li>Disable styles - by embedded/linked/inline as well as all styles, or just a single sheet</li>
+            <li>Edit CSS &amp; HTML - Make live changes to your CSS or HTML!</li>
+            <li>Images - outlining, file sizes, alt information... lots more</li>
+            <li>Form detail - useful for working with form elements</li>
+            <li>Built in validators</li>
+            <li>Line Guides &amp; Rulers</li>
+          </ul>
+
+          <h3>Firebug</h3>
+          <div class="content-block">
+
+            <ul>
+
+              <li>
+                As we get more complex, the harder it can be to figure out what is going on or what we got right or wrong.
+              </li>	
+              <li>
+                Having a diagnostic tool to assist us in developing these behaviours would help.  That's where Firebug comes in.</li>
+                <li>
+                  Firebug is a Firefox extension that makes it easy to examine every detail of your web page
+                </li>
+                <li>
+                  It's similar to Web Developer but with a different focus
+                </li>
+                <li>
+                  Found at: <a href="http://www.getfirebug.com" title="Get Firebug!">getfirebug.com</a>
+                </li>
+                <li>
+                  Install it, restart Firefox and we'll walk through it together
+                </li>
               </ul>
             </div>
-            
-            <h2><strong>Built-in tools<strong></h2>
+
+            <h3>Standards</h3>
+            <div class="content-block"> 
+              <h4>What are standards?</h4>
+              <ul>
+                <li>Definition of standards?</li>
+                <li>What are some examples of standards in real life?
+                  <ul>
+                    <li>	Lightbulbs</li>
+                    <li>	Grades of gasoline</li>
+                    <li>	Train rail widths</li>
+                    <li>	TV Broadcast signals</li>
+                  </ul>
+                </li>
+              </ul>
+
+              <h4>Why use them?</h4>
+              <ul>
+                <li>Interoperability</li>
+                <li>Predictable results/dimensions/values</li>
+                <li>A new specification is not needed for each new manufacturing run</li>
+                <li>Need a new microwave? You can count on:
+                  <ul>
+                    <li>Plug/Voltage/Power</li>
+                    <li>Unit size</li>
+                    <li>Operation</li>
+                  </ul>
+                </li>
+              </ul>
+
+              <h4>Standard support - not always</h4>
+              <ul>
+                <li>Older units don't support standards</li>
+                <li>Electrical units </li>
+                <li>Televisions</li>
+                <li>Cars</li>
+              </ul>
+
+              <h4>Try to Renovate an old house!</h4>
+              <ul>
+                <li>Many non-standard things</li>
+                <li>Electrical panels, </li>
+                <li>Phone jacks, </li>
+                <li>Boilers, </li>
+                <li>Door/window sizes</li>
+                <li>Stairs</li>
+              </ul>
+
+              <h4>Non-Standard: What does that equal?</h4>
+              <ul>
+                <li>Costly and lengthy upgrades that can threaten the house itself.  </li>
+                <li>Foundational changes</li>
+                <li>Rewiring, replumbing, removing walls, floors, etc.</li>
+              </ul>
+
+              <h4>Web Standards</h4>
+              <p>When you build without standards, you are investing in the here and now, without thinking of tomorrow.</p>
+
+              <ul>
+                <li>Code is hard to support</li>
+                <li>Future developers may be confused</li>
+                <li>Re-engineering websites can be very difficult, costly and time consuming</li>
+                <li><strong><em>Most important</em></strong> Content is fused to your markup!</li>
+              </ul>
+            </div>
+
+
+            <h3>Standards: Web and IRL</h3>
+
             <div class="content-block">
 
-              <p>Starting with the built-in web developer tools:</p>
               <ul>
-               <li>Firefox Developer Toolbar</li>
-               <li>Includes console, debugger, inspector</li>
-               <li>Also includes multiple view options, ability to include style and even full size screenshots</li>
-               <li>Responsive Design view</li>
-               <li>Scratchpad for JavaScript stuff</li>
-               <li>Separate style editor</li>
-             </ul>
-             <p>Some pretty great stuff, but there are other tools out there that offer far more!</p>
-           </div>
+                <li><strong>ISO</strong>: International Organization for Standards ( <a href="http://www.iso.org">http://www.iso.org</a></li>
+                <li><strong>1906</strong>: As the Intn'l Electrotechnical Commission (IEC): in order to better access pre-determined equipment that was interchangeable and interoperable</li>
+                <li><strong>1947</strong>: 25 countries got together to form ISO: &quot;to facilitate the international coordination and unification of industrial standards&quot;</li>
+                <li>Companies agree to become a part of ISO, and gain access to the complete library of standards set by the organization in concert with their many members</li>
+                <li>While it started slowly, many companies ignored standards, in favor of their own "proprietary" methods</li>
+                <li>Momentum, corporate marketing (companies advertising that their product or method conforms with ISO XXXX), and some government legislation (forcing the adoption of certain standards) led to a larger adoption of standards</li>
+              </ul>
+            </li>
+          </ul>
 
-           <p>Extensions are a big part of Firefox:<br /><a href="https://addons.mozilla.org/extensions/?application=firefox">https://addons.mozilla.org/extensions/?application=firefox</a></p>
-           <p>There are many to choose from, with an entire category dedicated to <a href="https://addons.mozilla.org/en-US/firefox/browse/type:1/cat:4">Web and Developer Tools</a></p>
-           <p>The best tool for Web Developers is the <a href="https://addons.mozilla.org/extensions/moreinfo.php?application=firefox&category=Developer%20Tools&numpg=10&id=60">Web Developer toolbar</a></p>
-           <p>The author, Chris Pedrick, maintains a <a href="http://chrispederick.com/work/webdeveloper/">site for the Web Developer extension</a>.</p>
-           <p>Some of the amazing tools this has to offer web developers:
+          <h4>Web Standards - A Parallel</h4>
 
-            <ul>
-             <li>Disable styles - by embedded/linked/inline as well as all styles, or just a single sheet</li>
-             <li>Edit CSS &amp; HTML - Make live changes to your CSS or HTML!</li>
-             <li>Images - outlining, file sizes, alt information... lots more</li>
-             <li>Form detail - useful for working with form elements</li>
-             <li>Built in validators</li>
-             <li>Line Guides &amp; Rulers</li>
-           </ul></p>
-
-           <h2>Firebug</h2>
-           <div class="content-block">
-
-            <ul>
-
-             <li>As we get more complex, the harder it can be to figure out what is going on or what we got right or wrong.</li>	
-             <li>Having a diagnostic tool to assist us in developing these behaviours would help.  That's where Firebug comes in.</li>
-             <li>Firebug is a Firefox extension that makes it easy to examine every detail of your web page</li>
-             <li>It's similar to Web Developer but with a different focus</li>
-             <li>Found at: <a href="http://www.getfirebug.com" title="Get Firebug!">getfirebug.com</a></li>
-             <li>Install it, restart Firefox and we'll walk through it together</li>
-
-           </ul>
-         </div>
-
-         <h2>standards</h2>
-         <div class="content-block"> 
-
-          <h3>What are standards?</h3>
           <ul>
-           <li>Definition of standards?</li>
-           <li>What are some examples of standards in real life?
-            <ul>
-             <li>	Lightbulbs</li>
-             <li>	Grades of gasoline</li>
-             <li>	Train rail widths</li>
-             <li>	TV Broadcast signals</li>
-           </ul>
-         </li>
-       </ul>
+            <li>Web standards are going through the same process that the ISO went through</li>
+            <li>Many companies see the benefits of interoperability - many are still &quot;forging their own&quot;</li>
+            <li>Many companies have standards: Adobe, Microsoft, Apple, Ford, GM</li>
+            <li>Many are proprietary standards, and are not supported by many companies</li>
+            <li>W3C - World Wide Web Consortium: founded by Tim Berners-Lee to try and uniformly put forward standards through a single communication vehicle</li>
+            <li>Leading browser makers did not follow, initially</li>
+            <li>Designers were 'taking sides' in the browser wars… users were losers</li>
+          </ul>
 
-       <h3>Why use them?</h3>
-       <ul>
-         <li>Interoperability</li>
-         <li>Predictable results/dimensions/values</li>
-         <li>A new specification is not needed for each new manufacturing run</li>
-         <li>Need a new microwave? You can count on:
+          <h4>W3C Goals</h4>
+          <ol>
+            <li><strong>Universal Access</strong>: To make the Web accessible to all by promoting technologies that take into account the vast differences in culture, languages, education, ability, material resources, access devices, and physical limitations of users on all continents;</li>
+            <li><strong>Semantic Web</strong>: To develop a software environment that permits each user to make the best use of the resources available on the Web;</li>
+            <li><strong>Web of Trust</strong>: To guide the Web's development with careful consideration for the novel legal, commercial, and social issues raised by this technology.</li>
+          </ol>
+
+          <h4>Making Progress</h4>
           <ul>
-           <li>Plug/Voltage/Power</li>
-           <li>Unit size</li>
-           <li>Operation</li>
-         </ul>
-       </li>
-     </ul>
+            <li>Eventually, the drive towards standards began to win out</li>
+            <li>Users made their voices known and momentum started to slowly shift toward supporting standards</li>
+            <li>Seen as a marketing opportunity: <em>Our browser supports standards!</em></li>
+            <li>Mozilla Project emerged after a large number of Netscape developers were let go upon the acquisition by AOL</li>
+            <li>Mozilla is now a standards-compliant browser with many features</li>
+            <li>Microsoft and AOL followed shortly with adoption of W3C standards (with limitations)</li>
+            <li>Large companies started joining the W3C to be seen as part of the Standards game</li>
+          </ul>
 
-     <h3>Standard support - not always</h3>
-     <ul>
-       <li>Older units don't support standards</li>
-       <li>Electrical units </li>
-       <li>Televisions</li>
-       <li>Cars</li>
-     </ul>
+          <h3>For Web Developers</h3>
+          <h4>Designing to current W3C specifications means that:</h4>
+          <ul>
+            <li>your pages will be viewable in the largest number of browsers, </li>
+            <li>the largest number of devices </li>
+            <li>and (if used correctly) will gracefully degrade as support for CSS or other presentation layers are absent.</li>
+          </ul>
+          <p>Some more words about <a href="http://www.webstandards.org/learn/faq/">Web Standards</a> worth reading</p>
+        </div>
 
-     <h3>Try to Renovate an old house!</h3>
-     <ul>
-       <li>Many non-standard things</li>
-       <li>Electrical panels, </li>
-       <li>Phone jacks, </li>
-       <li>Boilers, </li>
-       <li>Door/window sizes</li>
-       <li>Stairs</li>
-     </ul>
+        <h2>Details of Standards-Driven Development</h2>
+        <div class="content-block">
 
-     <h3>Non-Standard: What does that equal?</h3>  
-     <ul>
-       <li>Costly and lengthy upgrades that can threaten the house itself.  </li>
-       <li>Foundational changes</li>
-       <li>Rewiring, replumbing, removing walls, floors, etc.</li>
-     </ul>
-
-     <h3>Web Standards</h3>
-     <p>When you build without standards, you are investing in the here and now, without thinking of tomorrow.</p>
-
-     <ul>
-       <li>Code is hard to support</li>
-       <li>Future developers may be confused</li>
-       <li>Re-engineering websites can be very difficult, costly and time consuming</li>
-       <li><strong><em>Most important</em></strong> Content is fused to your markup!</li>
-     </ul>
-   </div>
+          <h3>Requirements</h3>
+          <ul>
+            <li>XHTML + CSS + DOM = Agile Web Sites</li>
+            <li>Using XHTML Transitional or Strict to deliver valid code</li>
+            <li>Use CSS to develop sites that separate content from presentation</li>
+            <li>Getting rid of deprecated tags, complex table layouts, browser sniffing, code forking</li>
+            <li>Using Semantic Markup to establish content relationships and logical deployment of content</li>
+          </ul>
 
 
-   <h2>Standards: Web and IRL</h2>
+          <h3>Future Compatibility</h3> 
+          <ul>
+            <li>Code is easier to use for future developers</li>
+            <li>Less presentational code means easier design changes</li>
+            <li>Keep the same code for longer periods of time</li>
+            <li>Optimally, <strong>never</strong> change your code (if all presentation is gone)</li>
+          </ul>
 
-   <div class="content-block">
+          <h3>Development Cost</h3>
+          <ul>
+            <li>Longer development times for design changes</li>
+            <li>Complex table layouts difficult to manage</li>
+            <li>Harder to integrate with CMS (Content Management System) tools</li>
+          </ul>
 
-    <ul>
-     <li><strong>ISO</strong>: International Organization for Standards ( <a href="http://www.iso.org">http://www.iso.org</a></li>
-     <li><strong>1906</strong>: As the Intn'l Electrotechnical Commission (IEC): in order to better access pre-determined equipment that was interchangeable and interoperable</li>
-     <li><strong>1947</strong>: 25 countries got together to form ISO: &quot;to facilitate the international coordination and unification of industrial standards&quot;</li>
-     <li>Companies agree to become a part of ISO, and gain access to the complete library of standards set by the organization in concert with their many members</li>
-     <li>While it started slowly, many companies ignored standards, in favor of their own "proprietary" methods</li>
-     <li>Momentum, corporate marketing (companies advertising that their product or method conforms with ISO XXXX), and some government legislation (forcing the adoption of certain standards) led to a larger adoption of standards</li>
-   </ul>
- </li>
-</ul>
-
-<h3>Web Standards - A Parallel</h3>
-
-<ul>
- <li>Web standards are going through the same process that the ISO went through</li>
- <li>Many companies see the benefits of interoperability - many are still &quot;forging their own&quot;</li>
- <li>Many companies have standards: Adobe, Microsoft, Apple, Ford, GM</li>
- <li>Many are proprietary standards, and are not supported by many companies</li>
- <li>W3C - World Wide Web Consortium: founded by Tim Berners-Lee to try and uniformly put forward standards through a single communication vehicle</li>
- <li>Leading browser makers did not follow, initially</li>
- <li>Designers were 'taking sides' in the browser wars… users were losers</li>
-</ul>
-
-<h3>W3C Goals</h3>
-<ol>
- <li><strong>Universal Access</strong>: To make the Web accessible to all by promoting technologies that take into account the vast differences in culture, languages, education, ability, material resources, access devices, and physical limitations of users on all continents;</li>
- <li><strong>Semantic Web</strong>: To develop a software environment that permits each user to make the best use of the resources available on the Web;</li>
- <li><strong>Web of Trust</strong>: To guide the Web's development with careful consideration for the novel legal, commercial, and social issues raised by this technology.</li>
-</ol>
-
-<h3>Making Progress</h3>
-<ul>
- <li>Eventually, the drive towards standards began to win out</li>
- <li>Users made their voices known and momentum started to slowly shift toward supporting standards</li>
- <li>Seen as a marketing opportunity: <em>Our browser supports standards!</em></li>
- <li>Mozilla Project emerged after a large number of Netscape developers were let go upon the acquisition by AOL</li>
- <li>Mozilla is now a standards-compliant browser with many features</li>
- <li>Microsoft and AOL followed shortly with adoption of W3C standards (with limitations)</li>
- <li>Large companies started joining the W3C to be seen as part of the Standards game</li>
-</ul>
-
-<h3>For Web Developers</h3>
-<p>Designing to current W3C specifications means that:</p>
-<ul>
- <li>your pages will be viewable in the largest number of browsers, </li>
- <li>the largest number of devices </li>
- <li>and (if used correctly) will gracefully degrade as support for CSS or other presentation layers are absent.</li>
-</ul>
-<p>Some more words about <a href="http://www.webstandards.org/learn/faq/">Web Standards</a> worth reading</p>
-</div>
-
-<h2>Details of Standards-Driven Development</h2>
-<div class="content-block">
-
-  <h3>Requirements</h3>
-  <ul>
-   <li>XHTML + CSS + DOM = Agile Web Sites</li>
-   <li>Using XHTML Transitional or Strict to deliver valid code</li>
-   <li>Use CSS to develop sites that separate content from presentation</li>
-   <li>Getting rid of deprecated tags, complex table layouts, browser sniffing, code forking</li>
-   <li>Using Semantic Markup to establish content relationships and logical deployment of content</li>
- </ul>
+          <h3>Special Needs</h3>
+          <ul>
+            <li>XHTML lends itself to assistive readers (low vision, etc)</li>
+            <li>Can support multiple stylesheets for different user needs</li>
+            <li>Try surfing with your monitor off (at home)!  IBM's <a href="http://www-306.ibm.com/able/solution_offerings/hpr.html">Home Page Reader</a>
+            </ul>
 
 
- <h3>Future Compatibility</h3> 
- <ul>
-   <li>Code is easier to use for future developers</li>
-   <li>Less presentational code means easier design changes</li>
-   <li>Keep the same code for longer periods of time</li>
-   <li>Optimally, <strong>never</strong> change your code (if all presentation is gone)</li>
- </ul>
-
- <h3>Development Cost</h3>
- <ul>
-   <li>Longer development times for design changes</li>
-   <li>Complex table layouts difficult to manage</li>
-   <li>Harder to integrate with CMS (Content Management System) tools</li>
- </ul>
-
- <h3>Special Needs</h3>
- <ul>
-   <li>XHTML lends itself to assistive readers (low vision, etc)</li>
-   <li>Can support multiple stylesheets for different user needs</li>
-   <li>Try surfing with your monitor off (at home)!  IBM's <a href="http://www-306.ibm.com/able/solution_offerings/hpr.html">Home Page Reader</a>
-   </ul>
-
-
-   <h3>Single Codebase</h3>
-   <ul>
-     <li>No complex sniffing scripts</li>
-     <li>Avoid having to support multiple browsers with multiple home/site pages (code forking)</li>
-     <li>Much less upkeep (only one source to update)</li>
-   </ul>
+            <h3>Single Codebase</h3>
+            <ul>
+              <li>No complex sniffing scripts</li>
+              <li>Avoid having to support multiple browsers with multiple home/site pages (code forking)</li>
+              <li>Much less upkeep (only one source to update)</li>
+            </ul>
 
 
 
-   <h3>Moving Forward</h3>
-   <ul>
-     <li>XHTML to HTML5 - ease the transition</li>
-     <li>Making the most of the elements you have control over</li>
-     <li>jQuery easiness! The better your elements, classes and IDs, the easier it will be to access</li>
-   </ul>
- </div>
+            <h3>Moving Forward</h3>
+            <ul>
+              <li>XHTML to HTML5 - ease the transition</li>
+              <li>Making the most of the elements you have control over</li>
+              <li>jQuery easiness! The better your elements, classes and IDs, the easier it will be to access</li>
+            </ul>
+          </div>
 
 
 
- <h2>Standards Resources</h2>
- <div class="content-block">
-  <ul>
-   <li>WASP <a href="http://www.webstandards.org/">http://www.webstandards.org/</a></li>
-   <li>W3C <a href="http://www.w3c.org">http://www.w3c.org</a></li>
-   <li>W3C Sites <a href="http://www.w3csites.com/">http://www.w3csites.com/</a></li>
- </ul>
-</div>
+          <h2>Standards Resources</h2>
+          <div class="content-block">
+            <ul>
+              <li>WASP <a href="http://www.webstandards.org/">http://www.webstandards.org/</a></li>
+              <li>W3C <a href="http://www.w3c.org">http://www.w3c.org</a></li>
+              <li>W3C Sites <a href="http://www.w3csites.com/">http://www.w3csites.com/</a></li>
+            </ul>
+          </div>
 
 
 
 
-<h2>Code</h2>
+          <h2 id="code-examples">Code</h2>
 
-<p><strong>Example of an XHTML Document</strong></p>><br>
+          <h4>Example of an XHTML Document</h4>
+          <div class="code-block">
+            <p>&#8826 ?xml version="1.0" encoding="ISO-8859-1"&#8827</p>
+            <p>&#8826 !DOCTYPE html &#8827</p>
+            <p>PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"&#8827</p>
+            <p>&#8826 html &#8827</p>
+            <p>&#09;&#8826 head &#8827</p>
+            <p>&#09;&#8826 title &#8827 COMP 1950 - Intermediate Web Development and Design &#8826/title &#8827</p>
+            <p>&#8826 /head&#8827</p>
+            <p>&#8826 body&#8827</p>
+            <p>&#8826 h1&#8827 Welcome! &#8826/h1&#8827</p>
+            <p>&#8826 p &#8827 This class will begin at 6:45 each Tuesday for 12 weeks&#8826/p&#8827</p>
+            <p>&#8826/body&#8827</p>
+            <p>&#8826/html&#8827</p><br>
+          </div>
 
-<p>&#8826 ?xml version="1.0" encoding="ISO-8859-1"&#8827</p>  <!-- special characters &#8826 and %#8827 are tag brackets-->
-<p>&#8826 !DOCTYPE html &#8827</p>
-<p>PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"&#8827</p>
-<p>&#8826 html &#8827</p>
-<p>&#8826 head &#8827</p>
-<p>&#8826 title &#8827 COMP 1950 - Intermediate Web Development and Design &#8826/title &#8827</p>
-<p>&#8826 /head&#8827</p>
-<p>&#8826 body&#8827</p>
-<p>&#8826 h1&#8827 Welcome! &#8826/h1&#8827</p>
-<p>&#8826 p &#8827 This class will begin at 6:45 each Tuesday for 12 weeks&#8826/p&#8827</p>
-<p>&#8826/body&#8827</p>
-<p>&#8826/html&#8827</p><br>
+          <h2 id="excercise">Markup Exercise</h2>
+          <div class="content-block">
+            <p>You have <strong>two pieces of homework</strong> for this week. Please finish both:</p>
+            <ul>
+              <li><a href="exercises/content.html">Create a page for Finnegan</a> in XHTML Strict <strong>and</strong> HTML5</li>
+              <li><a href="exercises/exercise2.html">Create a page for a Realtor</a> in XHTML Strict <strong>and</strong> HTML5</li>
+            </ul>
+          </div>
 
-<h2 id="excercise">Excercise</h2>
-
-<h2>Markup Exercise</h2>
-<div class="content-block">
-  <p>You have <strong>two pieces of homework</strong> for this week. Please finish both:</p>
-  <ul>
-    <li><a href="exercises/content.html">Create a page for Finnegan</a> in XHTML Strict <strong>and</strong> HTML5</li>
-    <li><a href="exercises/exercise2.html">Create a page for a Realtor</a> in XHTML Strict <strong>and</strong> HTML5</li>
-  </ul>
-</div>
-
-<h2 id="web-resources">Resource</h2>
-
-<a href="www.google.com/chrome">Chrome</a>
-<a href="http://www.apple.com/safari/">Safari</a>
-<a href="http://www.mozilla.org/en-US/firefox">Firefox</a>)
-<a href="www.google.com/chrome">Chrome</a> 
-<a href="https://addons.mozilla.org/extensions/?application=firefox">https://addons.mozilla.org/extensions/?application=firefox</a>
-<a href="http://chrispederick.com/work/webdeveloper/">site for the Web Developer extension</a>
-<a href="http://www.getfirebug.com" title="Get Firebug!">getfirebug.com</a>
-<a href="http://www.panic.com/coda/">Coda</a>
-<a href="http://www.sublimetext.com/2">Sublime Text 2</a>
-<a href="http://www.adobe.com/products/dreamweaver.html">Dreamweaver</a>
-<a href="http://cyberduck.ch/">Cyberduck FTP</a>
-<a href="http://www.ficml.org/jemimap/style/color/wheel.html">Color Wheel</a> 
-<a href="http://notepad-plus-plus.org/">Notepad++</a> 
-<a href="http://filezilla-project.org">Filezilla</a> 
-<a href="http://www.barebones.com/products/textwrangler/">Text Wrangler</a> 
-<a href="http://www.htmlkit.com/">HTMLKit</a> 
-<a href="http://www.aptana.com/">Aptana</a> 
-<a href="http://expression.microsoft.com/en-us/dd565874.aspx">Expression SuperPreview</a>
-<a href="http://www.textasticapp.com/">Textastic</a> 
-<a href="http://dropbox.com">Dropbox</a>
-<a href="http://www.activestate.com/komodo-edit">Komodo</a>
-<a href="http://www.iso.org">http://www.iso.org</a>
-<a href="http://www.webstandards.org/">http://www.webstandards.org/</a>
-<a href="http://www.w3c.org">http://www.w3c.org</a>
-<a href="http://www.w3csites.com/">http://www.w3csites.com/</a>
-<a href="http://www.whatwg.org/specs/web-apps/current-work/">Living Standard</a>
-</div>
-</div>
-</div>
-</section>
-<!--#include file="includes/footer.inc" -->
+          <h2 id="web-resources">Resource</h2>
+          <h4>Browsers</h4> 
+          <ul>
+            <li><a href="www.google.com/chrome">Chrome</a></li>
+            <li><a href="http://www.apple.com/safari/">Safari</a></li>
+            <li><a href="http://www.mozilla.org/en-US/firefox">Firefox</a></li>
+            <li><a href="www.google.com/chrome">Chrome</a> </li>
+            <li><a href="https://addons.mozilla.org/extensions/?application=firefox">FireFox Extension</a></li>
+            <li><a href="http://chrispederick.com/work/webdeveloper/">site for the Web Developer extension</a></li>
+            <li><a href="http://www.getfirebug.com" title="Get Firebug!">getfirebug.com</a></li>
+          </ul>
+          <h4>Text Editors</h4>
+          <ul>
+            <li><a href="http://www.panic.com/coda/">Coda</a></li>
+            <li><a href="http://www.sublimetext.com/2">Sublime Text 2</a></li>
+            <li><a href="http://www.adobe.com/products/dreamweaver.html">Dreamweaver</a></li>
+            <li><a href="http://cyberduck.ch/">Cyberduck FTP</a></li>
+            <li><a href="http://www.ficml.org/jemimap/style/color/wheel.html">Color Wheel</a> </li>
+            <li><a href="http://notepad-plus-plus.org/">Notepad++</a> </li>
+            <li><a href="http://www.htmlkit.com/">HTMLKit</a> </li>
+            <li><a href="http://www.textasticapp.com/">Textastic</a></li>
+            <li><a href="http://www.aptana.com/">Aptana</a> </li>
+            <li><a href="http://www.activestate.com/komodo-edit">Komodo</a></li>
+            <li><a href="http://www.barebones.com/products/textwrangler/">Text Wrangler</a> </li>
+          </ul>
+          <h4>Software</h4>
+          <ul>
+            <li><a href="http://dropbox.com">Dropbox</a></li>
+            <li><a href="http://filezilla-project.org">Filezilla</a> </li>
+            <li><a href="http://expression.microsoft.com/en-us/dd565874.aspx">Expression SuperPreview</a></li>
+          </ul>
+          <h4>Useful information</h4>
+          <ul>
+            <li><a href="http://www.iso.org">http://www.iso.org</a></li>
+            <li><a href="http://www.webstandards.org/">http://www.webstandards.org/</a></li>
+            <li><a href="http://www.w3c.org">http://www.w3c.org</a></li>
+            <li><a href="http://www.w3csites.com/">http://www.w3csites.com/</a></li>
+            <li><a href="http://www.whatwg.org/specs/web-apps/current-work/">Living Standard</a></li>
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--#include file="includes/footer.inc" -->
 </body>
 </html>

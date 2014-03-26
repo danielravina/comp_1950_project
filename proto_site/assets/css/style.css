@@ -35,25 +35,36 @@ header#main h1 {
   border:1px solid #bfbfbf;
   height: 570px;
   overflow: auto;
+  padding:20px 35px;
+}
+.content-box h1, .content-box h2, .content-box h3,.content-box h4{
+  font-family: "dinregularwebfont";
+  padding: 20px 0 0 0;
 }
 .content-box h1{ 
   font-size: 25px;
 }
-.content-box h2{  
-  font-size: 20px;
-  font-family: "dinregularwebfont";
+.content-box h2{
+  border-bottom: 1px solid #dbdbdb;
+  font-size: 22px;
 }
-
 .content-box h3{  
-  font-size: 18px; color: #999999;
-  font-family: "dinregularwebfont";
-  padding: 20px 0px 0px 0px;
+  background: #e1e1e1;
+  font-size: 20px; color: #3a3a3a;
+  padding:10px 15px;
+}
+.content-box h4{  
+  font-size: 18px; color: #3c3c3c;
+  font-weight: 500;
+  padding: 10px 0 0 0;
 }
 
+/*.content-block { border: 1px dashed;}*/
 .content-box p{ line-height: 17px; }
-
+.code-block { background: #f2f2f2; padding:10px;}
+.code-block p { font-size: 0.9em;}
 .content-box span{  font-family: "DINMedium";}
-
+.content-box ul li{  list-style: disc;}
 .content-box ol li{  padding: 0px 0px 10px 0px;}
 
 /* FOOTER
