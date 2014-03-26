@@ -19,35 +19,35 @@
 
       <ul id="primaryNav" class="col4">
         <li id="home"><a href="http://teams.thenet.ca/tbd">HOME</a></li>
-        <li><a href="/lectures">LECTURES</a>
+        <li><a href="/lecture.shtml">LECTURES</a>
           <ul>
-            <li><a href="/lecture_01">01 | introduction</a></li>
-            <li><a href="/lecture_02">02 | tools & standards</a></li>
-            <li><a href="/lecture_03">03 | HTML 5 & SE0</a></li>
-            <li><a href="/lecture_04">04 | CSS concepts</a></li>
-            <li><a href="/lecture_05">05 | more CSS</a></li>
-            <li><a href="/lecture_06">06 | CSS & SSIs</a></li>
-            <li><a href="/lecture_07">07 | template development</a></li>
-            <li><a href="/lecture_08">08 | methodology</a></li>
-            <li><a href="/lecture_09">09 | JQuery / Git</a></li>
+            <li><a href="/week1.shtml">01 | introduction</a></li>
+            <li><a href="/week2.shtml">02 | tools & standards</a></li>
+            <li><a href="/week3.shtml">03 | HTML 5 & SE0</a></li>
+            <li><a href="/week4.shtml">04 | CSS concepts</a></li>
+            <li><a href="/week5.shtml">05 | more CSS</a></li>
+            <li><a href="/week6.shtml">06 | CSS & SSIs</a></li>
+            <li><a href="/week7.shtml">07 | template development</a></li>
+            <li><a href="/week8.shtml">08 | methodology</a></li>
+            <li><a href="/week9.shtml">09 | JQuery / Git</a></li>
           </ul>
         </li>
-        <li><a href="/blog">BLOG</a>
+        <li><a href="/blog.shtml">BLOG</a>
           <ul>
             <li><a href="http://goteamtbd.com">Tumblr</a></li>
           </ul>
         </li>
-        <li><a href="/contact">CONTACT</a>
+        <li><a href="/contact.shtml">CONTACT</a>
           <ul>
             <li><a href="https://alistair.com">Alistair Calder</a></li>
           </ul>
         </li>
-        <li><a href="/associated">ASSOCIATED</a>
+        <li><a href="/associated.shtml">ASSOCIATED</a>
           <ul>
             <li><a href="http://my.bcit.ca">my.bcit</a></li>
             <li><a href="http://bcit.ca">bcit</a></li>
             <li><a href="http://bcit.ca/cas/computing">bcit computing</a></li>
-            <li><a href="/alumni">alumni</a></li>
+            <li><a href="/alumni.shtml">alumni</a></li>
           </ul>
         </li> 
       </ul>
@@ -62,36 +62,36 @@
 
         <ul id="primaryNav" class="col4">
           <li id="home"><a href="http://teams.thenet.ca/tbd">HOME</a></li>
-          <li><a href="/lectures">LECTURES</a>
+          <li><a href="/lecture.shtml">LECTURES</a>
             <ul>
-              <li><a href="/lecture_notes">lecture notes</a></li>
+              <li><a href="/lecturenotes.shtml">lecture notes</a></li>
             </ul>
           </li>
-          <li><a href="/code_examples">CODE EXAMPLES</a>
+          <li><a href="/code_examples.shtml">CODE EXAMPLES</a>
             <ul>
-              <li><a href="/html_exmaples">HTML examples</a></li>
-              <li><a href="/css_exmpales">CSS examples</a></li>
-              <li><a href="/ssis">SSIs</a></li>
-              <li><a href="/jquery_examples">Jquery examples</a></li>
+              <li><a href="/html_exmaples.shtml">HTML examples</a></li>
+              <li><a href="/css_exmpales.shtml">CSS examples</a></li>
+              <li><a href="/ssis.shtml">SSIs</a></li>
+              <li><a href="/jquery_examples.shtml">Jquery examples</a></li>
             </ul>
           </li>
-          <li><a href="/exercises">EXERCISES</a>
+          <li><a href="/exercises.shtml">EXERCISES</a>
             <ul>
               <li><a href="/finnegan_layout">Finnegan layout</a></li>
               <li><a href="/gallery_exercie">Gallery exercise</a></li>
             </ul>
           </li>
-          <li><a href="/web_resources">WEB RESROUCES</a>
+          <li><a href="/web_resources.shtml">WEB RESROUCES</a>
             <ul>
-              <li><a href="/web_development">web development</a></li>
-              <li><a href="/web_design">web design</a></li>
-              <li><a href="/jquery">Jquery</a></li>
-              <li><a href="/github">GitHub</a></li>
+              <li><a href="/web_development.shtml">web development</a></li>
+              <li><a href="/web_design.shtml">web design</a></li>
+              <li><a href="/jquery.shtml">Jquery</a></li>
+              <li><a href="http://github.com">GitHub</a></li>
             </ul>
           </li>      
         </ul>
       </div>     
     </section>
-    
+    <!--#include file="includes/footer.inc" -->
   </body>
   </html>
