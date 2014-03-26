@@ -171,7 +171,7 @@ a:visited:before {
 }
 #primaryNav li li a:link:before,
 #primaryNav li li a:visited:before {
-	color: #666666;
+	color: #333333;
 }
 
 /* --------	Sub Level Nav --------- */
@@ -288,7 +288,7 @@ a:visited:before {
 }
 #subNav li li a:link:before,
 #subNav li li a:visited:before {
-	color: #666666;
+	color: #333333;
 }
 
 
