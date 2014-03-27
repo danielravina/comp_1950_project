@@ -26,6 +26,6 @@
             <li><a href="http://my.bcit.ca" target="blank">my.bcit.ca</a></li>
             <li><a href="http://bcit.ca" target="blank">bcit.ca</a></li>
             <li><a href="http://bcit.ca/cas/computing" target="blank">bcit computing</a></li>
-            <li><a href="/alumni.shtml">our Alumni</a></li>
+            <li><a href="http://teams.thenet.ca/tbd/proto_site/alumni.shtml">our Alumni</a></li>
           </ul>
         </nav>
