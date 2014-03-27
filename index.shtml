@@ -16,7 +16,7 @@
       <p>Included in each page will be access to each week’s lecture, exercises, and assignments. Also, there will be information about the course and the instructor, and a link to the blog.</p>
       <footer>
         <h2>Can't Wait to see it?</h2>
-        <a href="http://teams.thenet.ca/tbd" id="site-button" class="button success big round">New Site Here!</a>
+        <a href="/proto_site/index.shtml" id="site-button" class="button success big round">New Site Here!</a>
       </footer>
     </div>      
   </div>
