@@ -41,19 +41,6 @@
             <div class="columns large-6 medium-12 small-12">
               <div class="avatar">
                 <figure>
-                  <img src="assets/img/don-face.jpg" alt="">
-                </figure>
-              </div>
-            </div>
-            <div class="columns large-6 medium-7 small-7 small-centered">
-              <h3>Don Clark</h3>
-              <p>Content Officer. Provided content throughout and provided any assistance where needed</p>
-            </div>
-          </div>
-          <div class="row person-module">
-            <div class="columns large-6 medium-12 small-12">
-              <div class="avatar">
-                <figure>
                   <img src="assets/img/paige.png" alt="">
                 </figure>
               </div>
