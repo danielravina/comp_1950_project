@@ -1,18 +1,16 @@
 <!doctype html>
 <html lang="en">
 <head>
-<title>COMP1950 :: Site Map</title>
- <link rel="stylesheet" href="assets/css/sitemap.css">
- <!--#include file="includes/head.inc" -->
- <style>
-  #primaryNav #home { background: none;}
- </style>
+  <title>COMP1950 :: Site Map</title>
+  <link rel="stylesheet" href="assets/css/sitemap.css">
+  <!--#include file="includes/head.inc" -->
+  <style>
+    #primaryNav #home { background: inherit;}
+  </style>
 </head>
-<body>
-  <!--#include file="includes/header.inc" -->
-  
+<body>  
   <section id="main-content">
-  <div class="sitemap">
+    <div class="sitemap">
       <ul id="utilityNav">
         <li><a href="#">Site Map</a></li>
       </ul>
@@ -36,7 +34,6 @@
         </li>          
       </ul>
     </div> 
-    </section>
-    <!--#include file="includes/footer.inc" -->
-  </body>
-  </html>
+  </section>
+</body>
+</html>
