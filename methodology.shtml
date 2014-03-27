@@ -15,7 +15,7 @@
           </header>
           <h2><span class="number">1</span> Analysis</h2>
           <ul>
-            <li>Understanding the Client Expectations</li>
+            <li>Understanding the Client's Expectations</li>
             <li>Establish Requirements - a review of the existing site - advantages and disadvantages.</li>
             <li>Establishing Requirements - understanding what we wanted and how we wanted to change.</li>
             <li>Proposals - what we wanted and did not want in the design.</li>
@@ -40,7 +40,7 @@
           <h2><span class="number">4</span> Deployment & Review</h2>
           <ul>
             <li>Completion of content and code.</li>
-            <li>Final test and revision</li>
+            <li>Final test and revisions</li>
             <li>Publishing to Host </li>
             <li>Review of final product in live environment.</li>
           </ul>
