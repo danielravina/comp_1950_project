@@ -16,7 +16,7 @@
       </ul>
 
       <ul id="primaryNav" class="col5">
-        <li id="home"><a href="/tbd">HOME</a></li>
+        <li id="home"><a href="http://teams.thenet.ca/tbd/index.shtml">HOME</a></li>
         <li>
           <a href="about.shtml">ABOUT</a>
         </li>
@@ -27,7 +27,7 @@
           <a href="methodology.shtml">METHODOLOGY</a>
         </li>
         <li>
-          <a href="rathionale.shtml">RATIONALE</a>
+          <a href="rationale.shtml">RATIONALE</a>
         </li>
         <li>
           <a href="proto_site">TEAM TBD WEBSITE</a>
