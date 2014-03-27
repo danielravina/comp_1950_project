@@ -25,7 +25,7 @@ nav#main ul {
 }
 
 nav#main ul li{
-  display: inline !important;
+  display: inline;
   margin-right: 19px;
   font-size: 18px;
 }
@@ -82,19 +82,23 @@ body>footer a{
   font-size: 0.9em;
   line-height: 20px;
 }
+
 .avatar figure {
-  text-align: right;
-}
-
-.avatar figure img{
+  margin:auto;
   border-radius: 50%;
-  width:180px;
-  height:180px;
+  width:180px; height:180px;
+  background-size: 180px 180px;
+  display: block;
+  margin-right: 12px;
+}
+.avatar figure#daniel {
+  background-size: 165px 180px;
+  background-position: 9px;
+}
+#main-content .person-module {
+  margin-bottom: 30px;
 }
 
-#main-content .person-module {
-  margin-bottom: 20px;
-}
 #main-content .person-module h3 {
   text-align: left;
   margin:inherit;
@@ -107,6 +111,7 @@ body>footer a{
   padding-left: 14px;
   border-radius:50%;
 }
+
 figure.docs-figure {
   width:200px;
   height:200px;
@@ -114,8 +119,12 @@ figure.docs-figure {
 }
 
 @media (max-width: 1024px) {
+  .avatar {
+    margin-bottom: 20px;
+  }
   .avatar figure {
-    text-align: center;
+    float:none;
+    margin:auto;
   } 
 }
 @media (max-width: 492px){
