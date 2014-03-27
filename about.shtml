@@ -14,8 +14,7 @@
           <div class="row person-module">
             <div class="columns large-6 medium-12 small-12">
               <div class="avatar">
-                <figure>
-                  <img src="assets/img/dennis-face.jpg" alt="">
+                <figure style="background-image:url('assets/img/dennis-face.jpg')">
                 </figure>
               </div>
             </div>
@@ -27,8 +26,7 @@
           <div class="row person-module">
             <div class="columns large-6 medium-12 small-12">
               <div class="avatar">
-                <figure>
-                  <img src="assets/img/shannon_profile.jpg" alt="">
+                <figure style="background-image:url('assets/img/shannon_profile.jpg')">
                 </figure>
               </div>
             </div>
@@ -40,8 +38,7 @@
           <div class="row person-module">
             <div class="columns large-6 medium-12 small-12">
               <div class="avatar">
-                <figure>
-                  <img src="assets/img/paige.png" alt="">
+                <figure style="background-image:url('assets/img/paige.png')">
                 </figure>
               </div>
             </div>
@@ -53,8 +50,7 @@
           <div class="row person-module">
             <div class="columns large-6 medium-12 small-12">
               <div class="avatar">
-                <figure>
-                  <img src="assets/img/daniel-small-bg.jpg" alt="">
+                <figure id="daniel" style="background-image:url('assets/img/daniel-small-bg.jpg')">
                 </figure>
               </div>
             </div>

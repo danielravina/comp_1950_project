@@ -80,6 +80,7 @@ footer#main p {
   font-size: 14px; letter-spacing: .5px;
   padding: 3px 0px 2px 0px;
   color: #ffffff; font-family: "DINMedium";
+  margin-bottom: 0;
 }
 
 footer#main a:link,
