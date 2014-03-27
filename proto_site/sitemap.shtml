@@ -61,12 +61,12 @@
 
           <ul id="primaryNav" class="col4">
             <li id="home"><a href="http://teams.thenet.ca/tbd">HOME</a></li>
-            <li><a href="/tbd/proto_site/lecture.shtml">LECTURES</a>
+            <li><a href="lecture.shtml">LECTURES</a>
               <ul>
-                <li><a href="/tbd/proto_site/lecture.shtml">lecture notes</a></li>
+                <li><a href="lecture.shtml">lecture notes</a></li>
               </ul>
             </li>
-            <li><a href="/tbd/proto_site/code_examples.shtml">CODE EXAMPLES</a>
+            <li><a href="code_examples.shtml">CODE EXAMPLES</a>
               <ul>
                 <li><a href="/tbd/proto_site/html_exmaples.shtml">HTML examples</a></li>
                 <li><a href="#">CSS examples</a></li>
@@ -74,13 +74,13 @@
                 <li><a href="#">Jquery examples</a></li>
               </ul>
             </li>
-            <li><a href="/tbd/proto_site/exercises.shtml">EXERCISES</a>
+            <li><a href="exercises.shtml">EXERCISES</a>
               <ul>
-                <li><a href="/finnegan_layout">Finnegan layout</a></li>
-                <li><a href="/gallery_exercie">Gallery exercise</a></li>
+                <li><a href="#">Finnegan layout</a></li>
+                <li><a href="#">Gallery exercise</a></li>
               </ul>
             </li>
-            <li><a href="/tbd/proto_site/web_resources.shtml">WEB RESROUCES</a>
+            <li><a href="web_resources.shtml">WEB RESROUCES</a>
               <ul>
                 <li><a href="#">web development</a></li>
                 <li><a href="#">web design</a></li>
@@ -89,54 +89,9 @@
               </ul>
             </li>      
           </ul>
-        </div>    
+        </div>  
+      </section>
+      <!-- #include file="includes/footer.inc"  -->
+    </body>
+    </html>
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-        <ul id="primaryNav" class="col4">
-          <li id="home"><a href="http://teams.thenet.ca/tbd">HOME</a></li>
-          <li><a href="lecture.shtml">LECTURES</a>
-            <ul>
-              <li><a href="lecture.shtml">lecture notes</a></li>
-            </ul>
-          </li>
-          <li><a href="code_examples.shtml">CODE EXAMPLES</a>
-            <ul>
-              <li><a href="#">HTML examples</a></li>
-              <li><a href="#">CSS examples</a></li>
-              <li><a href="#">SSIs</a></li>
-              <li><a href="#">Jquery examples</a></li>
-            </ul>
-          </li>
-          <li><a href="exercises.shtml">EXERCISES</a>
-            <ul>
-              <li><a href="#">Finnegan layout</a></li>
-              <li><a href="#">Gallery exercise</a></li>
-            </ul>
-          </li>
-          <li><a href="web_resources.shtml">WEB RESROUCES</a>
-            <ul>
-              <li><a href="#">web development</a></li>
-              <li><a href="#">web design</a></li>
-              <li><a href="#">Jquery</a></li>
-              <li><a href="http://github.com">GitHub</a></li>
-            </ul>
-          </li>      
-        </ul>
-      </div>     
-    </section>
-    <!--#include file="includes/footer.inc" -->
-  </body>
-  </html>
-=======
-      </section>
-      <!-- #include file="includes/footer.inc"  -->
-    </body>
-    </html>
->>>>>>> FETCH_HEAD
-=======
-      </section>
-      <!-- #include file="includes/footer.inc"  -->
-    </body>
-    </html>
->>>>>>> FETCH_HEAD
