@@ -1,6 +1,6 @@
 <section id="sub-navigation">
   <div class="row">
-    <div class="columns large-12 right">
+    <div class="columns large-12 right small-12">
       <div class="content-tabs right">
         <nav id="tabs">
           <ul>
