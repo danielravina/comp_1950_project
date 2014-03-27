@@ -15,7 +15,7 @@
             </nav>
           </header>
           <p>
-            The current Comp1950 provides the users, BCIT students with a good framework to view class lecture materials that are updated weekly. The navigation is intuitive and the content is uncluttered and laid out in a logical order, with no flashy or distracting fonts.
+            The current Comp1950 web page provides the users, BCIT students, with a good framework to view class lecture materials that are updated weekly. The navigation is intuitive and the content is uncluttered and laid out in a logical order, with no flashy or distracting fonts.
           </p>
           <p>
             However, once the user is familiar with this otherwise straightforward design there are certain shortcomings that both the user and contributors to the site, namely the instructors, that could be improved. The navigation does not follow the user when scrolling the site content. Perhaps most contentious is that the reusable links to exercises and examples are buried in the content. There is no search function and the pages do not scale adequately to mobile devices.
@@ -23,21 +23,21 @@
           <a name="process"></a>
           <h2>Process</h2>
           <p>
-            We looked at variety of sites that were education-related - Site Inspire, Web Design Inspiration for ideas and guidance.
+            We looked at variety of sites that were education-related - Site Inspire, Web Design Inspiration for ideas and guidance. Searching for visual inspiration from existing education sites and dissecting the components for what would be relevant for our site - looking at pros and cons of each. 
           </p>
           <p>
             We wanted a straightforward design that is easy to use and looks good - as in up-to-date, and one that is easy to update.
           </p>
           <p>
-            The idea behind the new site is to develop a new overall approach to Comp 1950 course website which enables us to meet the needs of our participating students. Researching visual inspiration from existing education sites and dissecting the components and what would be relevant for our site - looking at pros and cons of each. 
+            The idea behind the new design is to develop a new overall approach to Comp 1950 course website which enables us to meet the needs of our participating students. 
           </p>
           <a name="redesign"></a>
           <h2>Redesign</h2>
           <p>
-            The main navigation will be a [fixed] vertical scrolling sidebar for easy access to the resources available. The sub navigation will be on the top right corner of the main page and will be fixed link tabs to alternate resources to help students as the course progresses. 
+            The main navigation would be a [fixed] vertical scrolling sidebar for easy access to the resources available. The sub navigation will be on the top right corner of the main page and will be fixed link tabs to alternate resources to help students as the course progresses. 
           </p>
           <p>
-            Ultimately we wanted a design where all the items that we want to access in a lecture were immediately available - lecture notes, examples, exercises, documentation. We did not want something where we would have to move around the lecture page to find the links and this provided a reasonable solution.
+            Ultimately we wanted a design where all the items that we want to access in a lecture were immediately available - lecture notes, examples, exercises, documentation. We did not want a design where the user would have to move around the lecture page to find the links, and this provided a reasonable solution.
           </p>
           <p>
             We used Foundation to build the site using rows and columns according to the design. The basic structure in Foundation is based on a 12 column grid - this allows you to create a structure that can scale up or down for responsive design. This had the added advantage of saving time in building the html and probably simplifying the CSS. We also included a Jquery Plugin for scrolling. A search function was included in the header.
@@ -48,7 +48,7 @@
             Design of the pages began with wireframe designs and initial templates that the team agreed to. With the basic page design decided the next step was coding the general structure, testing and agreeing to small changes in design and changes to colors and format. Team members individually created and gathered content which was gathered on Google Drive and the HTML, CSS and Javascript  was placed on Github. The process of sharing contributions to content and code at in-person meetings and through online message meetings allowed the project to come together and make the most of everyones different personal schedules. 
           </p>
           <p>
-            Ultimately we decided on a completion date at least two days before due date to ensure a complete review of all the content and function of the the site by all team members
+            Ultimately we decided on a completion date at least two days before due date to ensure a complete review of all the content and function of the the site by all team members. This ultimately proved most useful when we had most members using Github for the first time.
           </p>
         </div>
         <div style="text-align:center;">
