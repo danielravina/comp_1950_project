@@ -19,7 +19,7 @@
 
       <ul id="primaryNav" class="col4">
         <li id="home"><a href="http://teams.thenet.ca/tbd/proto_site/index.shtml">HOME</a></li>
-        <li><a href="http://teams.thenet.ca/tbd/proto_site/lecture.html">LECTURES</a>
+        <li><a href="http://teams.thenet.ca/tbd/proto_site/week1.shtml">LECTURES</a>
           <ul>
             <li><a href="week1.shtml">01 | introduction</a></li>
             <li><a href="week2.shtml">02 | tools & standards</a></li>
@@ -61,9 +61,9 @@
 
           <ul id="primaryNav" class="col4">
             <li id="home"><a href="http://teams.thenet.ca/tbd/proto_site/index.shtml">HOME</a></li>
-            <li><a href="lecture.html">LECTURES</a>
+            <li><a href="http://teams.thenet.ca/tbd/proto_site/week1.shtml">LECTURES</a>
               <ul>
-                <li><a href="lecture.html">lecture notes</a></li>
+                <li><a href="week1.shtml">lecture notes</a></li>
               </ul>
             </li>
             <li><a href="http://teams.thenet.ca/tbd/proto_site/code_examples.shtml">CODE EXAMPLES</a>
