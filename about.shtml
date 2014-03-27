@@ -66,8 +66,6 @@
 
       </div>
     </section>
-    <footer>
-      Site Map
-    </footer>
+      <!--#include file="includes/footer.inc" -->
   </body>
   </html>

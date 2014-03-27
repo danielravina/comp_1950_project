@@ -24,7 +24,7 @@
             <li>Understanding individual contributions</li>
             <li>Understanding what could be implemented within the working timeframe.</li>
           </ul>
-          <a name="design">
+          <a name="design"></a>
           <h2><span class="number">2</span> Design</h2>
           <ul>
             <li>Wireframing</li>
@@ -33,14 +33,14 @@
             <li>Organization - setting work environment for the group - Github, Google Drive and Tumblr</li>
             <li>Prototype and concurrent testing</li>
           </ul>
-          <a name="implementation">
+          <a name="implementation"></a>
           <h2><span class="number">3</span> Implementation</h2>
           <ul>
             <li>Coding HTML CSS JavaScript</li>
             <li>Developing Content</li>
             <li>Testing and Revision</li>
           </ul>
-          <a name="deployment">
+          <a name="deployment"></a>
           <h2><span class="number">4</span> Deployment & Review</h2>
           <ul>
             <li>Completion of content and code.</li>
@@ -51,8 +51,6 @@
         </div>
       </div>
     </section>
-    <footer>
-      Site Map
-    </footer>
+    <!--#include file="includes/footer.inc" -->
   </body>
   </html>

@@ -37,7 +37,7 @@
           <div class="row">
             <div class="columns large-6">
               <figure>
-                <a href="assets/img/wireframe1.jpg"><img src="assets/img/wireframe1.jpg" alt=""></a>
+                <a href="assets/img/wireframe1.jpg" class="th"><img src="assets/img/wireframe1.jpg" alt=""></a>
               </figure>
             </div>
             <div class="columns large-6">
@@ -47,8 +47,8 @@
           </div>
           <div class="row">
             <div class="columns large-6">
-              <figure>
-                <a href="assets/img/wireframe2.jpg"><img src="assets/img/wireframe2.jpg" alt=""></a>
+              <figure >
+                <a href="assets/img/wireframe2.jpg" class="th"><img src="assets/img/wireframe2.jpg" alt=""></a>
               </figure>
             </div>
             <div class="columns large-6">
@@ -59,7 +59,7 @@
           <div class="row">
             <div class="columns large-6">
               <figure>
-                <a href="assets/img/wireframe3.jpg"><img src="assets/img/wireframe3.jpg" alt=""></a>
+                <a href="assets/img/wireframe3.jpg" class="th"><img src="assets/img/wireframe3.jpg" alt=""></a>
               </figure>
             </div>
             <div class="columns large-6">
@@ -70,8 +70,6 @@
         </div>
       </div>
     </section>
-    <footer>
-      Site Map
-    </footer>
+    <!--#include file="includes/footer.inc" -->
   </body>
   </html>
