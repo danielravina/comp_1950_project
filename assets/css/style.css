@@ -12,7 +12,6 @@ header#main {
   background: #e4e4e4;
 }
 
-
 header#main h1 {
   font-size: 2em;
 }
@@ -26,7 +25,7 @@ nav#main ul {
 }
 
 nav#main ul li{
-  display: inline;
+  display: inline !important;
   margin-right: 19px;
   font-size: 18px;
 }
@@ -59,8 +58,13 @@ body>footer{
   margin-top: 50px;
   background: #1388b9;
   height:200px;
+  text-align: center;
+  padding:50px;
 }
-
+body>footer a{
+  color: #222;
+  text-decoration: underline;
+}
 .caption {
   line-height: 30px;
 }

@@ -92,6 +92,7 @@
         </div>    
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         <ul id="primaryNav" class="col4">
           <li id="home"><a href="http://teams.thenet.ca/tbd">HOME</a></li>
           <li><a href="lecture.shtml">LECTURES</a>
@@ -127,6 +128,12 @@
     <!--#include file="includes/footer.inc" -->
   </body>
   </html>
+=======
+      </section>
+      <!-- #include file="includes/footer.inc"  -->
+    </body>
+    </html>
+>>>>>>> FETCH_HEAD
 =======
       </section>
       <!-- #include file="includes/footer.inc"  -->
