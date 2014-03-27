@@ -1,18 +1,18 @@
 <!doctype html>
 <html lang="en">
 <head>
-<title>COMP1950 :: Site Map</title>
- <link rel="stylesheet" href="assets/css/sitemap.css">
- <!--#include file="includes/head.inc" -->
- <style>
-  #primaryNav #home { background: none;}
- </style>
+  <title>COMP1950 :: Site Map</title>
+  <link rel="stylesheet" href="assets/css/sitemap.css">
+  <style>
+    #primaryNav, #primaryNav #home {background: inherit;}
+  </style>
+  <!--#include file="includes/head.inc" -->
 </head>
 <body>
   <!--#include file="includes/header.inc" -->
   
   <section id="main-content">
-  <div class="sitemap">
+    <div class="sitemap">
       <ul id="utilityNav">
         <li><a href="#">Site Map</a></li>
       </ul>
@@ -53,45 +53,45 @@
       </ul>
     </div>
     <div class="sitemap">
-
       <ul id="subNav" class="col4">
-        <div>
-        <div id="subnav_head">
-          <p>SUB NAV</p>
-        </div>
+        
+          <div id="subnav_head">
+            <p>SUB NAV</p>
+          </div>
 
-        <ul id="primaryNav" class="col4">
-          <li id="home"><a href="http://teams.thenet.ca/tbd">HOME</a></li>
-          <li><a href="/tbd/proto_site/lecture.shtml">LECTURES</a>
-            <ul>
-              <li><a href="/tbd/proto_site/lecture.shtml">lecture notes</a></li>
-            </ul>
-          </li>
-          <li><a href="/tbd/proto_site/code_examples.shtml">CODE EXAMPLES</a>
-            <ul>
-              <li><a href="/tbd/proto_site/html_exmaples.shtml">HTML examples</a></li>
-              <li><a href="#">CSS examples</a></li>
-              <li><a href="#">SSIs</a></li>
-              <li><a href="#">Jquery examples</a></li>
-            </ul>
-          </li>
-          <li><a href="/tbd/proto_site/exercises.shtml">EXERCISES</a>
-            <ul>
-              <li><a href="/finnegan_layout">Finnegan layout</a></li>
-              <li><a href="/gallery_exercie">Gallery exercise</a></li>
-            </ul>
-          </li>
-          <li><a href="/tbd/proto_site/web_resources.shtml">WEB RESROUCES</a>
-            <ul>
-              <li><a href="#">web development</a></li>
-              <li><a href="#">web design</a></li>
-              <li><a href="#">Jquery</a></li>
-              <li><a href="http://github.com">GitHub</a></li>
-            </ul>
-          </li>      
-        </ul>
-      </div>     
-    </section>
-    <!--#include file="includes/footer.inc" -->
-  </body>
-  </html>
+          <ul id="primaryNav" class="col4">
+            <li id="home"><a href="http://teams.thenet.ca/tbd">HOME</a></li>
+            <li><a href="/tbd/proto_site/lecture.shtml">LECTURES</a>
+              <ul>
+                <li><a href="/tbd/proto_site/lecture.shtml">lecture notes</a></li>
+              </ul>
+            </li>
+            <li><a href="/tbd/proto_site/code_examples.shtml">CODE EXAMPLES</a>
+              <ul>
+                <li><a href="/tbd/proto_site/html_exmaples.shtml">HTML examples</a></li>
+                <li><a href="#">CSS examples</a></li>
+                <li><a href="#">SSIs</a></li>
+                <li><a href="#">Jquery examples</a></li>
+              </ul>
+            </li>
+            <li><a href="/tbd/proto_site/exercises.shtml">EXERCISES</a>
+              <ul>
+                <li><a href="/finnegan_layout">Finnegan layout</a></li>
+                <li><a href="/gallery_exercie">Gallery exercise</a></li>
+              </ul>
+            </li>
+            <li><a href="/tbd/proto_site/web_resources.shtml">WEB RESROUCES</a>
+              <ul>
+                <li><a href="#">web development</a></li>
+                <li><a href="#">web design</a></li>
+                <li><a href="#">Jquery</a></li>
+                <li><a href="http://github.com">GitHub</a></li>
+              </ul>
+            </li>      
+          </ul>
+        </div>    
+
+      </section>
+      <!-- #include file="includes/footer.inc"  -->
+    </body>
+    </html>
