@@ -10,9 +10,10 @@
           <header>
             <h1>Methodology</h1>
             <nav>
-              <a href="">Analysis</a> | <a href="">Design</a> | <a href="">Implementation</a> | <a href="">Deployment & Review</a>
+              <a href="#analysis">Analysis</a> | <a href="#design">Design</a> | <a href="#implementation">Implementation</a> | <a href="#deployment">Deployment & Review</a>
             </nav>
           </header>
+          <a name="analysis"></a>
           <h2><span class="number">1</span> Analysis</h2>
           <ul>
             <li>Understanding the Client's Expectations</li>
@@ -23,6 +24,7 @@
             <li>Understanding individual contributions</li>
             <li>Understanding what could be implemented within the working timeframe.</li>
           </ul>
+          <a name="design">
           <h2><span class="number">2</span> Design</h2>
           <ul>
             <li>Wireframing</li>
@@ -31,12 +33,14 @@
             <li>Organization - setting work environment for the group - Github, Google Drive and Tumblr</li>
             <li>Prototype and concurrent testing</li>
           </ul>
+          <a name="implementation">
           <h2><span class="number">3</span> Implementation</h2>
           <ul>
             <li>Coding HTML CSS JavaScript</li>
             <li>Developing Content</li>
             <li>Testing and Revision</li>
           </ul>
+          <a name="deployment">
           <h2><span class="number">4</span> Deployment & Review</h2>
           <ul>
             <li>Completion of content and code.</li>
