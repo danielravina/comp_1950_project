@@ -19,7 +19,7 @@
  </section>
  <section id="main">
   <div class="row">
-    <div class="columns large-2">
+    <div class="columns large-2" id="nav-wrapper">
       <!--#include file="includes/main-navigation.inc" -->
     </div>
     <div class="columns large-10">

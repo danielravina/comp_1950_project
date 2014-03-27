@@ -1,0 +1,99 @@
+nav#main h3 a {
+	color: #222;
+}
+
+a#menu-button {
+	display: none;
+}
+
+
+
+@media only screen and (max-width: 1024px) {  
+
+	body > section:nth-child(3) > div:nth-child(1) > div:nth-child(1) {
+		width:200px;
+	}
+
+	body > section:nth-child(3) > div:nth-child(1) > div:nth-child(2) {
+		width:80%;
+		max-width:790px;
+		margin-left: -220px;
+	}
+
+
+
+}
+
+@media only screen and (max-width: 360px) {
+
+	header#main h1 {
+		font-size: 2.5em;
+	}  
+
+	#main h1 small {
+		font-size: .8em;
+	}
+
+	.hidden {
+		display:none;
+	}
+
+	nav#tabs ul {
+		font-size: .8em;
+		margin-left: 0;
+	}
+
+	#nav-wrapper {
+		position: fixed;
+		top: 0;
+		z-index: 99;
+	}
+
+	nav#main {
+		display: none;
+		text-align: right;
+		padding: 10px 20px;
+		background-color: #fff;
+		margin: 6px 0 0;
+		width: 100%;
+		border:1px solid #bfbfbf;
+	}
+
+	body > section:nth-child(3) > div:nth-child(1) > div:nth-child(2) {
+		margin-left: 0;
+		max-width: 100%;
+		width: 100%;	
+	}
+
+	.content-box {
+		height: 100%;
+	}
+
+	#search {
+		width: 100%;
+
+	}
+
+	#nav-wrapper {
+		width: 100%;
+		margin: 0;
+		background-color: #2b2b2b;
+		height: 30px;
+		padding: 5px 0;
+
+	}
+
+	a#menu-button {
+		display: block;
+		text-align: right;
+
+	}
+
+	nav#main h3:before, header#main h1:before {
+    content: none;
+    background: none;
+}
+
+	nav#main ul li {
+		font-size: 1.1em;
+	}

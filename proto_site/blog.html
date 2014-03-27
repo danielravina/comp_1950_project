@@ -1,248 +1,302 @@
 <!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>TBD &rarr; Blog</title>
-  <!--<link rel="stylesheet" href="http://teams.thenet.ca/tbd/proto_site/assets/fonts/webfontkit-20140127-152607/stylesheet.css">-->
-  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="http://teams.thenet.ca/tbd/proto_site/assets/css/normalize.css">
-  <link rel="stylesheet" href="http://teams.thenet.ca/tbd/proto_site/assets/css/foundation.min.css">
-  <link rel="stylesheet" href="http://teams.thenet.ca/tbd/proto_site/assets/css/style.css">
+<meta charset="UTF-8">
+<title>Thenet.ca :: COMP1950 SITE</title>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 
-  <!-- tag search -->
-  <meta name="text:Search Label" content="" />
-  <script type="text/javascript" src="http://static.tumblr.com/8oupd2j/BYTm7u5cn/tag_search.js"></script>
+<script src="assets/javascript/scrollTo.js"></script>
+<script src="assets/javascript/script.js"></script>
+<link rel="stylesheet" href="assets/fonts/webfontkit-20140127-152607/stylesheet.css">
+<link rel="stylesheet" href="assets/css/normalize.css">
+<link rel="stylesheet" href="assets/css/foundation.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/css/mediaqueries.css">
 
-  <style>
+<meta name="viewport" content="width=device-width" />
 
-      .post-content {
-        background: none repeat scroll 0% 0% #FFF;
-        border: 1px solid #BFBFBF;
-        width:100%;
-        margin: 0 auto;
-        padding: 15px;
-        clear: both;
-      }
+<!-- Onclick Nav -->
+<script>
+	$(document).ready(function(){
+		var windowWidth = $(window).width();
+		if(windowWidth < 1025){
+			$("#menu-button").click(function(){
+				$("nav#main").slideToggle(800);
+			});     
+		}
+	});
+</script>
 
-      .post {
-      	margin-bottom: 20px;
-    	max-width: 95%;
-      }
 
-      #page-title {
-      	text-transform: uppercase;
-      	color: #222;
-      	font-size:1.3em;
-      }
+<!-- tag search -->
+<meta name="text:Search Label" content="" />
+<script type="text/javascript" src="http://static.tumblr.com/8oupd2j/BYTm7u5cn/tag_search.js"></script>
 
-      .post header {
-      	width:100%;
-      	padding: 8px;
+<style>
+	
+	body {
+		font-family: 'din_lightregular', Dosis, sans-serif;
+	}
+
+	.post {
+		margin: 25px auto;
+		max-width: 93%;
+	}
+
+	.post header {
+		width:100%;
+		padding: 8px;
 		background: none repeat scroll 0% 0% #1FAD92;
 		border-radius: 15px 15px 0px 0px;
 		color: #FFF;
 		text-decoration: none;
-      }
+	}
 
-      .post-content ol {
-      	margin-left: 45px !important;
-      }
+	h1#page-title {
+		padding-top: 45px;
+		padding-left: 1em;
+		text-transform: uppercase;
+		color: #222;
+		font-size:1.6em;
+	}
 
-      .post footer {
-      	width: 100%;
-      }
-      
-      .post footer, .post footer a {
-          font-size:70%;
-          color: #808080;
-      }
 
-      .post footer a:hover {
-          color: #1FAD92;
-      }
+	.post-content {
+		background: none repeat scroll 0% 0% #FFF;
+		border: 1px solid #BFBFBF;
+		width:100%;
+		margin: 0 auto;
+		padding: 15px;
+		clear: both;
+	}
 
-      .post footer ul {
-        margin: 0;
-      }
+	.post-content ol {
+		margin-left: 45px !important;
+	}
 
-      .post footer ul li {
-        display:inline;
-        margin-left: 5px;
-      }
+	.post footer {
+		width: 100%;
+	}
 
-      footer nav {
-        display: inline;
-      }
+	.post footer, .post footer a {
+		font-size:70%;
+		color: #808080;
+	}
 
-  </style>
+	.post footer a:hover {
+		color: #1FAD92;
+	}
+
+	.post footer ul {
+		margin: 0;
+	}
+
+	.post footer ul li {
+		display:inline;
+		margin-left: 5px;
+	}
+
+	footer nav {
+		display: inline;
+	}
+
+	nav#main {
+		padding-top:45px;
+	}
+
+</style>
 
 </head>
 <body>
-  <header id="main">
-    <div class="row">
-      <div class="columns large-8">
-        <h1>BCIT COMP 1950 <small>Intermediate Web Design & Development</small></h1>
-      </div>
-      <div class="columns large-4">
-        <form onsubmit="return tagSearch(this)">
-          <div class="large-8 right">
-            <div class="row">
-              <div class="large-2 columns">
-              </div>
-              <div class="large-10 columns">
-                <div class="row collapse">
-                  <div class="columns large-11">
-                  <input type="text" id="right-label" placeholder="Search" name="tag" value="{text:Search Label}" onfocus="if (this.value == '{text:Search Label}') {this.value=''}" onblur="if (this.value == '') {this.value='{text:Search Label}'}" />
-                  </div>
-                  <div class="columns large-1">
-                    <button class="postfix inline">S</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </form>
-      </div>
-    </div>
-  </header>
-  <section id="navigation">
-    <div class="row">
-      <div class="columns large-12 right">
+	<header id="main">
+		<div class="row">
+			<div class="columns large-8">
+				<a href="/tbd/proto_site"><h1>BCIT COMP 1950 <small>Intermediate Web Design &amp; Development</small></h1></a>
+			</div>
+			<div class="columns large-4">
+				<form>
+					<div class="large-8 right">
+						<div class="row">
+							<div class="large-10 columns">
+								<div class="row collapse">
+									<div class="columns large-11">
+										<input type="text" id="right-label" placeholder="Search">
+									</div>
+									<div class="columns large-1">
+										<button class="postfix inline">S</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</header>
+	<section id="navigation">
+		<div class="row">
+			<div class="columns large-12 right">
 
-        <h1 id="page-title" class="right">Blog</h1>
+				<section id="sub-navigation">
+					<div class="row">
+						<div class="columns large-12 right">
+							<div class="content-tabs right">
+								<nav id="tabs">
+									<ul>
+										<li><a href="#lecture-notes"><span class="hidden">LECTURE </span>NOTES</a></li>
+										<li><a href="#code-examples"><span class="hidden">CODE </span>EXAMPLES</a></li>
+										<li><a href="#exercises">EXERCISES</a></li>
+										<li><a href="#web-resources"><span class="hidden">WEB </span>RESOURCES</a></li>
+									</ul>
+								</nav>
+							</div>
+						</div>  
+					</div>
+				</section>
 
-      </div>  
-    </div>
-  </section>
-  <section id="main">
-    <div class="row">
-      <div class="columns large-2">
-        <nav id="main">
-          <h3>LECTURES</h3>
-          <ul>
-            <li><a href="">01 | Introduction</a></li>
-            <li><a href="#">02 | tools & standards</li>
-            <li>03 | HTML & SEO</li>
-            <li>04 | more CSS</li>
-            <li>05 | CSS & SSIs</li>
-            <li>06 | Template development</li>
-            <li>07 | Methodology</li>
-            <li>08 | jQuery / Git</li>
-          </ul>
-          <h3>BLOG</h3>
-          <ul>
-            <li><a href="http://goteamtbd.tumblr.com/">News</a></li>
-            <li><a href="http://goteamtbd.tumblr.com/tagged/resources">Resources</a></li>
-            <li><a href="http://goteamtbd.tumblr.com/tagged/exercises">Exercises</a></li>
-            <li><a href="http://goteamtbd.tumblr.com/tagged/code%20examples">Code Examples</a></li>
-          </ul>
-          <h3>CONTACT</h3>
-          <ul>
-            <li><a href="#">Alistair Caider</a></li>
-          </ul>
-          <h3>ASSOCIATED</h3>
-          <ul>
-            <li><a href="">my.bcit.ca</a></li>
-            <li><a href="">bcit.ca</a></li>
-            <li><a href="">bcit computing</a></li>
-            <li><a href="">our Alumnis</a></li>
-          </ul>
-        </nav>
-      </div>
-      <div class="columns large-10">
-      
-                {block:Posts}
+			</div>  
+		</div>
+	</section>
+	<section id="main">
+		<div class="row">
+			<div class="columns large-2" id="nav-wrapper">
+				
+				<a href="#" id="menu-button">MENU</a>
+				<nav id="main">
+					<h3>LECTURES</h3>
+					<ul>
+						<li><a href="week1.shtml">01 | Introduction</a></li>
+						<li><a href="week2.shtml">02 | tools &amp; standards</a></li>
+						<li>03 | HTML &amp; SEO</li>
+						<li>04 | more CSS</li>
+						<li>05 | CSS &amp; SSIs</li>
+						<li>06 | Template development</li>
+						<li>07 | Methodology</li>
+						<li>08 | jQuery / Git</li>
+					</ul>
+					<h3>BLOG</h3>
+					<ul>
+						<li><a href="http://goteamtbd.tumblr.com/">Tumblr</a></li>
+					</ul>
+					<h3>CONTACT</h3>
+					<ul>
+						<li><a href="http://alistair.com">Alistair Calder</a></li>
+					</ul>
+					<h3>ASSOCIATED</h3>
+					<ul>
+						<li><a href="http://my.bcit.ca" target="blank">my.bcit.ca</a></li>
+						<li><a href="http://bcit.ca" target="blank">bcit.ca</a></li>
+						<li><a href="http://bcit.ca/cas/computing" target="blank">bcit computing</a></li>
+						<li><a href="http://teams.thenet.ca/tbd/proto_site/alumni.shtml">our Alumni</a></li>
+					</ul>
+				</nav>
+			</div>
+			<div class="columns large-10">
 
-          <article class="post">
-          
-              {block:Text}
-              
-              
-                  <header>
-                    {block:Title} {Title} {/block:Title}
-                  </header>
-                  
-             <div class="post-content">
-             
-                  {Body}
-              
-              {/block:Text}
+				<h1 id="page-title">Blog</h1>
 
-            
-            <footer>
-            {block:Date}
-              <span class="details">
-                Posted by Alistair on {Month} {MonthNumber}{DayOfMonthSuffix}, {Year}
-              </span>
-            {/block:Date}
-            
-            {block:HasTags}
-              <div class="tags">
+				{block:Posts}
 
-                <nav>
-                    <ul>
-                        <li>
-                            <img src="https://cdn4.iconfinder.com/data/icons/shopping-b/512/YPS__tag_B-512.png" style="max-width:15px;">                           
-                        </li>
-                    {block:Tags}
-                        <li>
-                            <a href="{TagURL}">#{Tag}</a>
-                        </li>
-                    {/block:Tags}
-                    </ul>
-                </nav>
-              </div>
-            {/block:HasTags}
-            
-            </footer>
-            
-            </div>
+				<article class="post">
 
-          </article>
+					{block:Photo}
+					<header>
+						{block:Title} {Title} {/block:Title}
+					</header>
+					<figure>
+						{PhotoWidth-400}
+						{block:Caption}
+						<figcaption> 
+							{Caption} 
+						</figcaption>
+						{/block:Caption}
+					</figure>
+					{/block:Photo}
 
-        {/block:Posts}
-        
-        
-        {block:Pagination}
-          <div id="paginate">
-            <nav>
-              <ul>
-                <li style="display:inline;">
-                  {block:PreviousPage}
-                    <a href="{PreviousPage}">Previous</a>
-                  {/block:PreviousPage}
-                </li>
-                
-                <li style="display:inline;">
-                  {block:JumpPagination length="5"}
-                  
-                    {block:CurrentPage}
-                      <span class="current_page">{PageNumber}</span>
-                    {/block:CurrentPage}
-                    
-                    {block:JumpPage}
-                      <a class="jump_page" href="{URL}">{PageNumber}</a>
-                    {/block:JumpPage}
-                    
-                  {/block:JumpPagination}
-                </li>
-                
-                <li style="display:inline;">
-                  {block:NextPage}
-                    <a href="{NextPage}">Next</a>
-                  {/block:NextPage}
-                </li>
-              </ul> 
-            </nav>
-          </div>
-        {/block:Pagination}
-      </div>
-    </div>
 
-  </section>
-  <footer id="main">
-    <p>&copy; 2014 BCIT COMP 1950 | <a href="">Site Map</a></p>
-  </footer>
-  
-</body>
-</html>
+					{block:Text}
+					<header>
+						{block:Title} 
+						{Title} 
+						{/block:Title}
+					</header>
+					<div class="post-content">
+						{Body}
+						{/block:Text}
+
+
+						<footer>
+							{block:Date}
+							<span class="details">
+								Posted by Alistair on {Month} {MonthNumber}{DayOfMonthSuffix}, {Year}
+							</span>
+							{/block:Date}
+							{block:HasTags}
+							<div class="tags">
+								<nav>
+									<ul>
+										<li>
+											<img src="https://cdn4.iconfinder.com/data/icons/shopping-b/512/YPS__tag_B-512.png" style="max-width:15px;">										</li>
+											{block:Tags}
+											<li>
+												<a href="{TagURL}">#{Tag}</a>
+											</li>
+											{/block:Tags}
+										</ul>
+									</nav>
+								</div>
+								{/block:HasTags}
+
+							</footer>
+
+						</div>
+
+					</article>
+
+					{/block:Posts}
+
+
+					{block:Pagination}
+					<div id="paginate">
+						<nav>
+							<ul>
+								<li style="display:inline;">
+									{block:PreviousPage}
+									<a href="{PreviousPage}">Previous</a>
+									{/block:PreviousPage}
+								</li>
+
+								<li style="display:inline;">
+									{block:JumpPagination length="5"}
+
+									{block:CurrentPage}
+									<span class="current_page">{PageNumber}</span>
+									{/block:CurrentPage}
+
+									{block:JumpPage}
+									<a class="jump_page" href="{URL}">{PageNumber}</a>
+									{/block:JumpPage}
+
+									{/block:JumpPagination}
+								</li>
+
+								<li style="display:inline;">
+									{block:NextPage}
+									<a href="{NextPage}">Next</a>
+									{/block:NextPage}
+								</li>
+							</ul> 
+						</nav>
+					</div>
+					{/block:Pagination}
+
+
+				</div>
+			</div>
+
+		</section>
+		<footer id="main">
+			<p>&copy; 2014 BCIT COMP 1950 | <a href="sitemap.shtml">Site Map</a></p>
+		</footer>
+
+	</body>
+	</html>
