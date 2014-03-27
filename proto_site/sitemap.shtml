@@ -62,26 +62,26 @@
 
         <ul id="primaryNav" class="col4">
           <li id="home"><a href="http://teams.thenet.ca/tbd">HOME</a></li>
-          <li><a href="lecture.shtml">LECTURES</a>
+          <li><a href="/tbd/proto_site/lecture.shtml">LECTURES</a>
             <ul>
-              <li><a href="lecture.shtml">lecture notes</a></li>
+              <li><a href="/tbd/proto_site/lecture.shtml">lecture notes</a></li>
             </ul>
           </li>
-          <li><a href="code_examples.shtml">CODE EXAMPLES</a>
+          <li><a href="/tbd/proto_site/code_examples.shtml">CODE EXAMPLES</a>
             <ul>
-              <li><a href="html_exmaples.shtml">HTML examples</a></li>
-              <li><a href="css_exmpales.shtml">CSS examples</a></li>
-              <li><a href="ssis.shtml">SSIs</a></li>
-              <li><a href="jquery_examples.shtml">Jquery examples</a></li>
+              <li><a href="/tbd/proto_site/html_exmaples.shtml">HTML examples</a></li>
+              <li><a href="#">CSS examples</a></li>
+              <li><a href="#">SSIs</a></li>
+              <li><a href="#">Jquery examples</a></li>
             </ul>
           </li>
-          <li><a href="exercises.shtml">EXERCISES</a>
+          <li><a href="/tbd/proto_site/exercises.shtml">EXERCISES</a>
             <ul>
               <li><a href="/finnegan_layout">Finnegan layout</a></li>
               <li><a href="/gallery_exercie">Gallery exercise</a></li>
             </ul>
           </li>
-          <li><a href="web_resources.shtml">WEB RESROUCES</a>
+          <li><a href="/tbd/proto_site/web_resources.shtml">WEB RESROUCES</a>
             <ul>
               <li><a href="#">web development</a></li>
               <li><a href="#">web design</a></li>
