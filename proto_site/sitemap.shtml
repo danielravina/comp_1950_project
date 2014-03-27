@@ -1,25 +1,25 @@
 <!doctype html>
 <html lang="en">
 <head>
-<title>COMP1950 :: Site Map</title>
- <link rel="stylesheet" href="assets/css/sitemap.css">
- <!--#include file="includes/head.inc" -->
- <style>
-  #primaryNav #home { background: none;}
- </style>
+  <title>COMP1950 :: Site Map</title>
+  <link rel="stylesheet" href="assets/css/sitemap.css">
+  <style>
+    #primaryNav, #primaryNav #home {background: inherit;}
+  </style>
+  <!--#include file="includes/head.inc" -->
 </head>
 <body>
   <!--#include file="includes/header.inc" -->
   
   <section id="main-content">
-  <div class="sitemap">
+    <div class="sitemap">
       <ul id="utilityNav">
         <li><a href="#">Site Map</a></li>
       </ul>
 
       <ul id="primaryNav" class="col4">
         <li id="home"><a href="http://teams.thenet.ca/tbd">HOME</a></li>
-        <li><a href="/lecture.shtml">LECTURES</a>
+        <li><a href="lecture.shtml">LECTURES</a>
           <ul>
             <li><a href="week1.shtml">01 | introduction</a></li>
             <li><a href="week2.shtml">02 | tools & standards</a></li>
@@ -32,17 +32,17 @@
             <li><a href="#">09 | JQuery / Git</a></li>
           </ul>
         </li>
-        <li><a href="blog.shtml">BLOG</a>
+        <li><a href="http://goteamtbd.tumblr.com">BLOG</a>
           <ul>
-            <li><a href="http://goteamtbd.com">Tumblr</a></li>
+            <li><a href="http://goteamtbd.tumblr.com">Tumblr</a></li>
           </ul>
         </li>
-        <li><a href="contact.shtml">CONTACT</a>
+        <li><a href="#">CONTACT</a>
           <ul>
-            <li><a href="https://alistair.com">Alistair Calder</a></li>
+            <li><a href="http://alistair.com">Alistair Calder</a></li>
           </ul>
         </li>
-        <li><a href="/associated.shtml">ASSOCIATED</a>
+        <li><a href="#">ASSOCIATED</a>
           <ul>
             <li><a href="http://my.bcit.ca">my.bcit</a></li>
             <li><a href="http://bcit.ca">bcit</a></li>
@@ -53,35 +53,67 @@
       </ul>
     </div>
     <div class="sitemap">
-
       <ul id="subNav" class="col4">
-        <div>
-        <div id="subnav_head">
-          <p>SUB NAV</p>
-        </div>
+        
+          <div id="subnav_head">
+            <p>SUB NAV</p>
+          </div>
 
+          <ul id="primaryNav" class="col4">
+            <li id="home"><a href="http://teams.thenet.ca/tbd">HOME</a></li>
+            <li><a href="/tbd/proto_site/lecture.shtml">LECTURES</a>
+              <ul>
+                <li><a href="/tbd/proto_site/lecture.shtml">lecture notes</a></li>
+              </ul>
+            </li>
+            <li><a href="/tbd/proto_site/code_examples.shtml">CODE EXAMPLES</a>
+              <ul>
+                <li><a href="/tbd/proto_site/html_exmaples.shtml">HTML examples</a></li>
+                <li><a href="#">CSS examples</a></li>
+                <li><a href="#">SSIs</a></li>
+                <li><a href="#">Jquery examples</a></li>
+              </ul>
+            </li>
+            <li><a href="/tbd/proto_site/exercises.shtml">EXERCISES</a>
+              <ul>
+                <li><a href="/finnegan_layout">Finnegan layout</a></li>
+                <li><a href="/gallery_exercie">Gallery exercise</a></li>
+              </ul>
+            </li>
+            <li><a href="/tbd/proto_site/web_resources.shtml">WEB RESROUCES</a>
+              <ul>
+                <li><a href="#">web development</a></li>
+                <li><a href="#">web design</a></li>
+                <li><a href="#">Jquery</a></li>
+                <li><a href="http://github.com">GitHub</a></li>
+              </ul>
+            </li>      
+          </ul>
+        </div>    
+
+<<<<<<< HEAD
         <ul id="primaryNav" class="col4">
           <li id="home"><a href="http://teams.thenet.ca/tbd">HOME</a></li>
-          <li><a href="/tbd/proto_site/lecture.shtml">LECTURES</a>
+          <li><a href="lecture.shtml">LECTURES</a>
             <ul>
-              <li><a href="/tbd/proto_site/lecture.shtml">lecture notes</a></li>
+              <li><a href="lecture.shtml">lecture notes</a></li>
             </ul>
           </li>
-          <li><a href="/tbd/proto_site/code_examples.shtml">CODE EXAMPLES</a>
+          <li><a href="code_examples.shtml">CODE EXAMPLES</a>
             <ul>
-              <li><a href="/tbd/proto_site/html_exmaples.shtml">HTML examples</a></li>
+              <li><a href="#">HTML examples</a></li>
               <li><a href="#">CSS examples</a></li>
               <li><a href="#">SSIs</a></li>
               <li><a href="#">Jquery examples</a></li>
             </ul>
           </li>
-          <li><a href="/tbd/proto_site/exercises.shtml">EXERCISES</a>
+          <li><a href="exercises.shtml">EXERCISES</a>
             <ul>
-              <li><a href="/finnegan_layout">Finnegan layout</a></li>
-              <li><a href="/gallery_exercie">Gallery exercise</a></li>
+              <li><a href="#">Finnegan layout</a></li>
+              <li><a href="#">Gallery exercise</a></li>
             </ul>
           </li>
-          <li><a href="/tbd/proto_site/web_resources.shtml">WEB RESROUCES</a>
+          <li><a href="web_resources.shtml">WEB RESROUCES</a>
             <ul>
               <li><a href="#">web development</a></li>
               <li><a href="#">web design</a></li>
@@ -95,3 +127,9 @@
     <!--#include file="includes/footer.inc" -->
   </body>
   </html>
+=======
+      </section>
+      <!-- #include file="includes/footer.inc"  -->
+    </body>
+    </html>
+>>>>>>> FETCH_HEAD

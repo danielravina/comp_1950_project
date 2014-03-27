@@ -1,7 +1,7 @@
 <header id="main">
   <div class="row">
     <div class="columns large-8">
-      <a href="/proto_site"><h1>BCIT COMP 1950 <small>Intermediate Web Design & Development</small></h1></a>
+      <a href="/tbd/proto_site"><h1>BCIT COMP 1950 <small>Intermediate Web Design & Development</small></h1></a>
     </div>
     <div class="columns large-4">
       <form>
