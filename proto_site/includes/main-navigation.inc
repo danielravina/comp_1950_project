@@ -23,9 +23,9 @@
           </ul>
           <h3>ASSOCIATED</h3>
           <ul>
-            <li><a href="http://my.bcit.ca">my.bcit.ca</a></li>
-            <li><a href="http://bcit.ca">bcit.ca</a></li>
-            <li><a href="http://bcit.ca/cas/computing">bcit computing</a></li>
+            <li><a href="http://my.bcit.ca" target="blank">my.bcit.ca</a></li>
+            <li><a href="http://bcit.ca" target="blank">bcit.ca</a></li>
+            <li><a href="http://bcit.ca/cas/computing" target="blank">bcit computing</a></li>
             <li><a href="/alumni.shtml">our Alumnis</a></li>
           </ul>
         </nav>
