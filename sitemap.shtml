@@ -16,7 +16,7 @@
       </ul>
 
       <ul id="primaryNav" class="col5">
-        <li id="home"><a href="http://teams.thenet.ca/tbd/index.shtml">HOME</a></li>
+        <li id="home"><a href="http://teams.thenet.ca/tbd/">HOME</a></li>
         <li>
           <a href="about.shtml">ABOUT</a>
         </li>
