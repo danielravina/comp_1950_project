@@ -13,13 +13,13 @@
         <!--#include file="includes/main-navigation.inc" -->
       </div>
       <div class="columns large-10">
+        
         <div class="content-box">
           <h1>Week 2 - Tools and Standards</h1>
           <h2 id="lecture-notes">Lecture Notes</h2>
 
           <h3>Agenda</h3>
           <div class="content-block">
-
             <ul>
               <li>Web review: some reminders</li>
               <li>Web Development with Firefox, Chrome and Safari</li>
