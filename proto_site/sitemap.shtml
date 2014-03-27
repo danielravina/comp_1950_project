@@ -39,14 +39,14 @@
         </li>
         <li><a href="#">CONTACT</a>
           <ul>
-            <li><a href="http://alistair.com">Alistair Calder</a></li>
+            <li><a href="http://alistair.com" target="blank">Alistair Calder</a></li>
           </ul>
         </li>
         <li><a href="#">ASSOCIATED</a>
           <ul>
-            <li><a href="http://my.bcit.ca">my.bcit</a></li>
-            <li><a href="http://bcit.ca">bcit</a></li>
-            <li><a href="http://bcit.ca/cas/computing">bcit computing</a></li>
+            <li><a href="http://my.bcit.ca" target="blank">my.bcit</a></li>
+            <li><a href="http://bcit.ca" target="blank">bcit</a></li>
+            <li><a href="http://bcit.ca/cas/computing" target="blank">bcit computing</a></li>
             <li><a href="alumni.shtml">alumni</a></li>
           </ul>
         </li> 
@@ -85,7 +85,7 @@
                 <li><a href="#">web development</a></li>
                 <li><a href="#">web design</a></li>
                 <li><a href="#">Jquery</a></li>
-                <li><a href="http://github.com">GitHub</a></li>
+                <li><a href="http://github.com/danielravina/comp_1950_project" target="blank">GitHub</a></li>
               </ul>
             </li>      
           </ul>
