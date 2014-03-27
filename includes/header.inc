@@ -1,7 +1,7 @@
 <header id="main">
   <div class="row">
     <div class="columns large-6">
-      <a href="/index.shtml"><h1><b>TBD</b>- Totally Bodacious <span style="color:#db3592;">Designs</span></h1></a>
+      <a href="/"><h1><b>TBD</b>- Totally Bodacious <span style="color:#db3592;">Designs</span></h1></a>
     </div>
     <div class="columns large-6 right">
       <nav id="main">
