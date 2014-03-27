@@ -19,13 +19,13 @@
           </ul>
           <h3>CONTACT</h3>
           <ul>
-            <li><a href="#">Alistair Caider</a></li>
+            <li><a href="http://alistair.com">Alistair Caider</a></li>
           </ul>
           <h3>ASSOCIATED</h3>
           <ul>
-            <li><a href="">my.bcit.ca</a></li>
-            <li><a href="">bcit.ca</a></li>
-            <li><a href="">bcit computing</a></li>
-            <li><a href="">our Alumnis</a></li>
+            <li><a href="http://my.bcit.ca">my.bcit.ca</a></li>
+            <li><a href="http://bcit.ca">bcit.ca</a></li>
+            <li><a href="http://bcit.ca/cas/computing">bcit computing</a></li>
+            <li><a href="/alumni.shtml">our Alumnis</a></li>
           </ul>
         </nav>
