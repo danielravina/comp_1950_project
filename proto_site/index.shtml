@@ -22,7 +22,7 @@
     <div class="columns large-2" id="nav-wrapper">
       <!--#include file="includes/main-navigation.inc" -->
     </div>
-    <div class="columns large-10">
+    <div id="content-box-wrapper" class="columns large-10">
       <div class="content-box">
         <h3>Fall 2011 - welcome!</h3>
         <p>the agenda for week 1 is the following:</p>

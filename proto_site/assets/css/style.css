@@ -187,8 +187,17 @@ nav#tabs ul li a.active {
 
 
 }
+@media(max-width:635px) { 
+  footer#main {
+    position: relative;
+  }
+}
 
 @media(max-width:635px) {
+  div#content-box-wrapper {
+    width:100%;
+  }
+
   .content-tabs.right {
     width:100%;
     margin-bottom: 12px;
@@ -202,6 +211,7 @@ nav#tabs ul li a.active {
     display: block;
   }
   footer#main {
-  position: relative;
-  
+    position: relative;
+  }
+
 }

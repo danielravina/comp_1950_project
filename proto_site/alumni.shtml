@@ -23,7 +23,7 @@
     <div class="columns large-2" id="nav-wrapper">
         <!--#include file="includes/main-navigation.inc" -->
       </div>
-        <div class="columns large-10">
+        <div id="content-box-wrapper" class="columns large-10">
           <div class="content-box">
             <h2>Alumni</h2>
               <p> Here is a list of former Comp1950 students who have continued and prospered in the field of
